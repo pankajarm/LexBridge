@@ -260,9 +260,17 @@ def ingest_documents(embedder, vector_store, graph_store):
     print("[Ingestion] Computing cross-lingual similarities...")
     _compute_cross_lingual_similarities(docs, embedder, graph_store, threshold=0.75)
 
+    stats = {
+        "status": "success",
+        "documents_ingested": len(docs),
+        "vectors_count": vector_store.count(),
+        "graph_nodes": graph_store.node_count(),
+        "graph_relationships": graph_store.relationship_count(),
+    }
     print(
         f"[Ingestion] Complete. "
-        f"Vectors: {vector_store.count()}, "
-        f"Nodes: {graph_store.node_count()}, "
-        f"Relationships: {graph_store.relationship_count()}"
+        f"Vectors: {stats['vectors_count']}, "
+        f"Nodes: {stats['graph_nodes']}, "
+        f"Relationships: {stats['graph_relationships']}"
     )
+    return stats
