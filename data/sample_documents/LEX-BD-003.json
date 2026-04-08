@@ -1,0 +1,36 @@
+{
+  "id": "LEX-BD-003",
+  "title": "Vorstandssitzung - Integrationsplanung Post-Merger Monsanto",
+  "content": "VERTRAULICH - Protokoll der Vorstandssitzung der Bayer AG vom 15. Januar 2018. Tagesordnungspunkt 2: Status der Integration nach Vollzug der Monsanto-Uebernahme. Der Integrationsleiter berichtet ueber den Fortschritt: (1) Organisationsstruktur: Monsantos Geschaeftsbereiche werden in die Division Crop Science integriert. (2) Markensstrategie: Die Marke Monsanto wird schrittweise durch Bayer ersetzt. (3) Rechtsabteilung: Zusammenfuehrung der Rechtsabteilungen in Leverkusen und St. Louis. Deutsche Anwaelte werden in das US-Prozessmanagement eingebunden. (4) AKTUALISIERUNG RECHTSRISIKEN: Die Zahl der Roundup-Klagen ist seit Vertragsunterzeichnung auf ueber 8.000 angestiegen (gegenueber 2.000 bei Vertragsschluss). Der Vorstand nimmt diese Entwicklung mit Besorgnis zur Kenntnis. Die Rechtsabteilung wird beauftragt, eine aktualisierte Risikoanalyse vorzulegen. (5) Synergien: Geplante jaehrliche Synergien von 1,2 Milliarden USD bis 2022.",
+  "summary": "Post-Merger Integration. Roundup-Klagen auf 8.000 gestiegen (von 2.000 bei Vertragsschluss). Vorstand besorgt.",
+  "language": "de",
+  "doc_type": "board_minutes",
+  "jurisdiction": "DE",
+  "date": "2018-01-15",
+  "parties": [
+    "Bayer AG"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosat"
+  ],
+  "risk_factors": [
+    "Klagezahl vervierfacht",
+    "Integrationsrisiko"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-BD-001",
+    "LEX-INT-001"
+  ],
+  "confidentiality": "internal",
+  "tags": [
+    "integration",
+    "klagezahl",
+    "post_merger"
+  ]
+}

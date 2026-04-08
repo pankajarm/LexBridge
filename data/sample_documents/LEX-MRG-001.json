@@ -1,0 +1,58 @@
+{
+  "id": "LEX-MRG-001",
+  "title": "Agreement and Plan of Merger - Key Terms Summary",
+  "content": "AGREEMENT AND PLAN OF MERGER dated September 14, 2016, by and among Bayer Aktiengesellschaft, KWA Investment Co. (a wholly-owned subsidiary of Bayer), and Monsanto Company. KEY TERMS: (1) MERGER CONSIDERATION: $128.00 per share in cash, representing a 44% premium over Monsanto's undisturbed stock price. Total transaction value: approximately $63 billion including net debt. (2) REPRESENTATIONS AND WARRANTIES: Monsanto represents that all material litigation has been disclosed in the Litigation Disclosure Schedule (Exhibit F). As of the date hereof, approximately 2,000 product liability claims related to Roundup herbicide are pending. (3) MATERIAL ADVERSE EFFECT: The MAE definition excludes the effect of pending or threatened litigation unless such litigation would reasonably be expected to result in aggregate liability exceeding $3 billion. (4) INDEMNIFICATION: Bayer's indemnification rights for breaches of representations and warranties are capped at $2 billion and subject to a $250 million basket. (5) TERMINATION FEE: $2 billion payable by Monsanto if the agreement is terminated under certain circumstances. (6) REGULATORY APPROVALS: Required from DOJ, EC, and authorities in approximately 30 jurisdictions.",
+  "summary": "$63B merger. MAE excludes litigation under $3B. Indemnification capped at $2B. 2,000 Roundup claims disclosed.",
+  "language": "en",
+  "doc_type": "merger_agreement",
+  "jurisdiction": "US",
+  "date": "2016-09-14",
+  "parties": [
+    "Bayer AG",
+    "Monsanto Company"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "MAE Threshold Inadequacy",
+    "Indemnification Cap",
+    "Disclosure Limitations"
+  ],
+  "monetary_value": 63000000000,
+  "regulatory_bodies": [
+    "DOJ",
+    "EU Commission"
+  ],
+  "contract_clauses": [
+    {
+      "clause_type": "material_adverse_effect",
+      "summary": "MAE excludes litigation unless >$3B",
+      "language": "en"
+    },
+    {
+      "clause_type": "indemnification_cap",
+      "summary": "Indemnification capped at $2B with $250M basket",
+      "language": "en"
+    },
+    {
+      "clause_type": "termination_fee",
+      "summary": "$2B reverse termination fee",
+      "language": "en"
+    }
+  ],
+  "related_docs": [
+    "LEX-MRG-002",
+    "LEX-SEC-002"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "merger_agreement",
+    "mae",
+    "indemnification",
+    "key_terms"
+  ]
+}

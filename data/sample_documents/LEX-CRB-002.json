@@ -1,0 +1,34 @@
+{
+  "id": "LEX-CRB-002",
+  "title": "Bundeskartellamt Freigabebescheid - Bayer/Monsanto Zusammenschluss",
+  "content": "BUNDESKARTELLAMT - Beschluss in dem Zusammenschlussvorhaben B2-39/17 Bayer AG / Monsanto Company. Das Bundeskartellamt gibt den Zusammenschluss der Bayer AG mit der Monsanto Company frei. Die Freigabe erfolgt im Hinblick auf die von der Europaeischen Kommission verfuegten Auflagen und Veraeusserungen. Das Bundeskartellamt hat die Wettbewerbsauswirkungen auf den deutschen und europaeischen Saatgut- und Pflanzenschutzmarkt geprueft und kommt zu dem Ergebnis, dass der Zusammenschluss unter Beruecksichtigung der EU-Auflagen den wirksamen Wettbewerb nicht erheblich behindert. ANMERKUNG: Die kartellrechtliche Pruefung umfasst keine Bewertung der Produkthaftungsrisiken in den USA. Das Bundeskartellamt weist ausdruecklich darauf hin, dass die Freigabe keine Aussage ueber die wirtschaftliche Tragfaehigkeit der Transaktion beinhaltet.",
+  "summary": "Bundeskartellamt gibt Zusammenschluss frei. Keine Bewertung der US-Produkthaftungsrisiken vorgenommen.",
+  "language": "de",
+  "doc_type": "cross_border_regulatory",
+  "jurisdiction": "DE",
+  "date": "2018-03-15",
+  "parties": [
+    "Bayer AG",
+    "Monsanto Company"
+  ],
+  "products": [],
+  "chemicals": [],
+  "risk_factors": [
+    "Keine Haftungspruefung",
+    "Nur Wettbewerbsrecht"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [
+    "Bundeskartellamt"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-CRB-001"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "bundeskartellamt",
+    "freigabe",
+    "kartellrecht"
+  ]
+}

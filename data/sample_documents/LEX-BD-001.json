@@ -1,0 +1,42 @@
+{
+  "id": "LEX-BD-001",
+  "title": "Protokoll der Vorstandssitzung - Uebernahmerisikobewertung Monsanto",
+  "content": "VERTRAULICH - Protokoll der Vorstandssitzung der Bayer AG vom 14. September 2016. Tagesordnungspunkt 3: Bewertung der Uebernahmerisiken bei der geplanten Akquisition der Monsanto Company. Der Vorstandsvorsitzende praesentiert die Ergebnisse der Sorgfaltspruefung. Wesentliche Feststellungen: (1) Monsanto ist globaler Marktfuehrer bei Saatgut und Pflanzenschutzmitteln mit einem Jahresumsatz von 14,6 Milliarden USD. (2) Das Produktportfolio umfasst Roundup (Glyphosat-basiert), gentechnisch veraendertes Saatgut und digitale Landwirtschaftsloesungen. (3) Rechtsrisiken: Es sind derzeit etwa 2.000 Klagen wegen angeblicher Krebsverursachung durch Roundup anhaengig. Die Rechtsabteilung schaetzt das maximale Haftungsrisiko auf 2-3 Milliarden USD. (4) Regulatorische Risiken: Die IARC-Klassifizierung von Glyphosat als wahrscheinlich krebserregend wird als beherrschbar eingestuft, da EPA und EFSA weiterhin die Unbedenklichkeit bestaetigen. BESCHLUSS: Der Vorstand genehmigt die Fortsetzung der Uebernahmeverhandlungen zum Angebotspreis von 128 USD je Aktie. Das Gesamtvolumen der Transaktion betraegt ca. 63 Milliarden USD einschliesslich Schuldenuebernahme.",
+  "summary": "Vorstandssitzung genehmigt Monsanto-Uebernahme. Haftungsrisiko auf 2-3 Mrd USD geschaetzt. 2.000 Klagen bekannt.",
+  "language": "de",
+  "doc_type": "board_minutes",
+  "jurisdiction": "DE",
+  "date": "2016-09-14",
+  "parties": [
+    "Bayer AG",
+    "Monsanto Company"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosat"
+  ],
+  "risk_factors": [
+    "Uebernahmerisiko",
+    "Haftungsrisiko",
+    "Unterschaetzung der Klagezahl"
+  ],
+  "monetary_value": 63000000000,
+  "regulatory_bodies": [
+    "BaFin",
+    "IARC"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-DD-001",
+    "LEX-MRG-001"
+  ],
+  "confidentiality": "internal",
+  "tags": [
+    "vorstand",
+    "uebernahme",
+    "risikobewertung",
+    "glyphosat"
+  ]
+}

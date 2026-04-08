@@ -1,0 +1,41 @@
+{
+  "id": "LEX-REG-001",
+  "title": "EPA Glyphosate Registration Review - Interim Decision",
+  "content": "The United States Environmental Protection Agency (EPA) has completed its interim registration review of glyphosate, the active ingredient in Roundup and numerous other herbicide products. After evaluating the available epidemiological, animal carcinogenicity, and genotoxicity studies, EPA's Office of Pesticide Programs concludes that glyphosate is not likely to be carcinogenic to humans at doses relevant to human health risk assessment. This determination is consistent with the conclusions of other regulatory bodies including the European Food Safety Authority (EFSA) and the Joint FAO/WHO Meeting on Pesticide Residues (JMPR). However, EPA acknowledges that the IARC classification of glyphosate as 'probably carcinogenic' (Group 2A) in 2015 has generated scientific controversy. EPA's assessment differs from IARC's primarily in the hazard-based versus risk-based approach and the inclusion of unpublished regulatory studies in EPA's review. EPA requires updated product labeling and restricts certain application methods. The registration of glyphosate products remains in effect, subject to ongoing monitoring of new scientific evidence.",
+  "summary": "EPA concludes glyphosate 'not likely carcinogenic' but acknowledges IARC controversy. Registration continues.",
+  "language": "en",
+  "doc_type": "regulatory_correspondence",
+  "jurisdiction": "US",
+  "date": "2017-12-18",
+  "parties": [
+    "EPA",
+    "Monsanto Company"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Regulatory Risk",
+    "Carcinogenicity Debate"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [
+    "EPA",
+    "IARC"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-REG-002",
+    "LEX-SCI-002"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "epa",
+    "glyphosate",
+    "registration_review",
+    "carcinogenicity"
+  ]
+}

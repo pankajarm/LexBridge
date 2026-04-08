@@ -1,0 +1,36 @@
+{
+  "id": "LEX-INT-001",
+  "title": "Integrationsplan - Zusammenfuehrung der Rechtsabteilungen",
+  "content": "VERTRAULICH - Projektplan zur Integration der Rechtsabteilungen von Bayer AG und Monsanto Company. Phase 1 (Monate 1-6): Bestandsaufnahme aller laufenden Rechtsstreitigkeiten, Vertraege und regulatorischen Verfahren. Uebertragung der Prozessfuehrung fuer US-Verfahren an Bayer-Prozessmanagement. Phase 2 (Monate 7-12): Harmonisierung der Compliance-Systeme und internen Richtlinien. Implementierung einheitlicher Vertragsstandards. Phase 3 (Monate 13-18): Konsolidierung der Rechtsabteilungsstandorte. KRITISCHER RISIKOFAKTOR: Die laufende Roundup-Litigation erfordert unmittelbare Aufmerksamkeit. Es werden mindestens 50 zusaetzliche US-Prozessanwaelte benoetigt. Die jaehrlichen Prozesskosten werden auf 400-600 Millionen USD geschaetzt. Die Integration wird durch Sprachbarrieren zwischen deutschen und amerikanischen Juristen erschwert. Empfehlung: Einrichtung eines bilingualen Litigation Management Teams in St. Louis.",
+  "summary": "Integrationsplan Rechtsabteilungen. 50 US-Anwaelte benoetigt. 400-600 Mio USD jaehrliche Prozesskosten.",
+  "language": "de",
+  "doc_type": "integration_plan",
+  "jurisdiction": "DE",
+  "date": "2018-03-01",
+  "parties": [
+    "Bayer AG",
+    "Monsanto Company"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [],
+  "risk_factors": [
+    "Integrationskosten",
+    "Sprachbarrieren",
+    "Prozesskosten"
+  ],
+  "monetary_value": 600000000,
+  "regulatory_bodies": [],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-BD-003",
+    "LEX-INT-002"
+  ],
+  "confidentiality": "internal",
+  "tags": [
+    "integration",
+    "rechtsabteilung",
+    "prozesskosten"
+  ]
+}

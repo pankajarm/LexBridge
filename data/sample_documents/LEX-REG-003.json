@@ -1,0 +1,40 @@
+{
+  "id": "LEX-REG-003",
+  "title": "EPA Response to IARC Classification - Glyphosate Issue Paper",
+  "content": "The EPA Office of Pesticide Programs issues this white paper in response to the IARC Monograph 112 classification of glyphosate as Group 2A. EPA reaffirms its position that glyphosate does not pose carcinogenic risks to humans based on currently registered uses. EPA notes several methodological differences between its assessment and IARC's evaluation: (1) EPA reviewed approximately 100 additional regulatory studies not available to IARC, including Good Laboratory Practice (GLP) compliant long-term animal studies submitted by registrants; (2) EPA conducts risk assessment incorporating exposure levels, whereas IARC performs hazard identification only; (3) EPA and IARC weight-of-evidence frameworks differ in their treatment of mechanistic data. EPA acknowledges that the IARC classification has created uncertainty in the marketplace and among consumers. EPA recommends continued monitoring of epidemiological literature and notes that several large prospective cohort studies, including the Agricultural Health Study, have not found consistent associations between glyphosate use and NHL risk. The Agency will complete its full registration review and draft risk assessment within 18 months.",
+  "summary": "EPA rebuts IARC classification. Cites 100+ additional studies. Acknowledges marketplace uncertainty.",
+  "language": "en",
+  "doc_type": "regulatory_correspondence",
+  "jurisdiction": "US",
+  "date": "2016-09-12",
+  "parties": [
+    "EPA"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Regulatory Uncertainty",
+    "Conflicting Scientific Assessments"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [
+    "EPA",
+    "IARC"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-REG-001",
+    "LEX-REG-002"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "epa",
+    "iarc",
+    "glyphosate",
+    "rebuttal"
+  ]
+}

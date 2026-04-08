@@ -1,0 +1,43 @@
+{
+  "id": "LEX-SET-001",
+  "title": "Johnson v. Monsanto - Appeal Settlement Terms",
+  "content": "SETTLEMENT AGREEMENT AND RELEASE. This agreement is entered into by and between Dewayne Johnson ('Plaintiff') and Monsanto Company (now a subsidiary of Bayer AG) to resolve all claims arising from Johnson v. Monsanto Company, San Francisco Superior Court Case No. CGC-16-550128. The jury originally awarded $289 million, comprising $39.2 million in compensatory damages and $250 million in punitive damages. The trial court subsequently reduced the award to $78.5 million. Following appeal to the California Court of Appeal, the parties have reached a confidential settlement. Key terms: (1) Monsanto/Bayer will pay an undisclosed settlement amount to Plaintiff within 30 days; (2) Plaintiff releases all claims against Monsanto, Bayer, their subsidiaries, and affiliates; (3) This settlement does not constitute an admission of liability, causation, or wrongdoing; (4) The terms of this agreement are confidential and may not be disclosed except as required by law or regulatory obligation. The settlement of this bellwether case does not resolve the approximately 42,000 other pending Roundup claims.",
+  "summary": "Confidential settlement of first bellwether case. Original $289M verdict reduced on appeal. ~42,000 claims remain.",
+  "language": "en",
+  "doc_type": "settlement_agreement",
+  "jurisdiction": "US",
+  "date": "2020-06-22",
+  "parties": [
+    "Dewayne Johnson",
+    "Monsanto Company",
+    "Bayer AG"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Settlement Precedent",
+    "Confidential Terms"
+  ],
+  "monetary_value": 78500000,
+  "regulatory_bodies": [],
+  "contract_clauses": [
+    {
+      "clause_type": "release_of_claims",
+      "summary": "Full release of all claims against Monsanto and Bayer",
+      "language": "en"
+    }
+  ],
+  "related_docs": [
+    "LEX-LIT-001"
+  ],
+  "confidentiality": "confidential",
+  "tags": [
+    "settlement",
+    "bellwether",
+    "roundup"
+  ]
+}

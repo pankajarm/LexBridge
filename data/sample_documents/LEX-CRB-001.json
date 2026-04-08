@@ -1,0 +1,38 @@
+{
+  "id": "LEX-CRB-001",
+  "title": "EU Commission Merger Approval - Conditional Clearance",
+  "content": "EUROPEAN COMMISSION - Case M.8084 - Bayer/Monsanto. The Commission has decided to declare the concentration compatible with the internal market and the EEA Agreement, subject to the following conditions: (1) DIVESTITURE: Bayer shall divest its entire vegetable seeds business, its digital agriculture business, certain herbicide businesses, and certain trait and breeding research. The divestiture package, valued at approximately EUR 7.6 billion, will be acquired by BASF. (2) RATIONALE: The Commission found that the merger as notified would significantly impede effective competition in seeds, traits, and pesticides markets. The divestitures eliminate horizontal overlaps and vertical concerns. (3) MONITORING: A Monitoring Trustee will oversee the divestiture process. NOTE: The Commission's review focused on competition concerns and did not assess product liability risks associated with Monsanto's Roundup litigation.",
+  "summary": "EU approves merger with EUR 7.6B divestiture to BASF. Competition focus only - no review of Roundup liability.",
+  "language": "en",
+  "doc_type": "cross_border_regulatory",
+  "jurisdiction": "EU",
+  "date": "2018-03-21",
+  "parties": [
+    "Bayer AG",
+    "Monsanto Company",
+    "BASF",
+    "EU Commission"
+  ],
+  "products": [],
+  "chemicals": [],
+  "risk_factors": [
+    "Divestiture Costs",
+    "No Liability Review by EC"
+  ],
+  "monetary_value": 7600000000,
+  "regulatory_bodies": [
+    "EU Commission"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-CRB-002",
+    "LEX-CRB-003"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "eu_commission",
+    "merger_approval",
+    "divestiture",
+    "basf"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "LEX-LIT-003",
+  "title": "Hardeman v. Monsanto Company - Federal Bellwether Trial",
+  "content": "Plaintiff Edwin Hardeman brings this product liability action in the United States District Court for the Northern District of California as part of the multidistrict litigation In re Roundup Products Liability Litigation (MDL No. 2741). Mr. Hardeman used Roundup products on his residential property in Sonoma County for approximately twenty-six years beginning in 1986. He was diagnosed with non-Hodgkin lymphoma in February 2015. This case was selected as the first federal bellwether trial to test the strength of plaintiffs' claims linking Roundup to cancer. The trial was bifurcated into a causation phase and a liability/damages phase. In the causation phase, the jury found that plaintiff's exposure to Roundup was a substantial factor in causing his NHL. Expert testimony included epidemiological studies, animal carcinogenicity studies, and mechanistic data supporting a causal link between glyphosate exposure and NHL. Monsanto's defense relied on regulatory approvals from the EPA and other agencies finding glyphosate unlikely to be carcinogenic. The jury ultimately awarded $80 million in damages, later reduced to $25 million by the trial court.",
+  "summary": "First federal bellwether trial in MDL 2741. Jury found Roundup substantially caused plaintiff's NHL. $80M verdict.",
+  "language": "en",
+  "doc_type": "litigation_filing",
+  "jurisdiction": "US",
+  "date": "2016-02-24",
+  "parties": [
+    "Edwin Hardeman",
+    "Monsanto Company"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Product Liability",
+    "NHL Cancer Link",
+    "Federal MDL"
+  ],
+  "monetary_value": 80000000,
+  "regulatory_bodies": [
+    "EPA"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-LIT-004",
+    "LEX-SCI-002"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "roundup",
+    "glyphosate",
+    "nhl",
+    "bellwether",
+    "mdl_2741"
+  ]
+}

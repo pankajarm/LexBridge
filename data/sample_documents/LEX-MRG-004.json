@@ -1,0 +1,39 @@
+{
+  "id": "LEX-MRG-004",
+  "title": "Gewaehrleistungen und Zusicherungen - Analyse der Offenlegungsluecken",
+  "content": "VERTRAULICH - Analyse der Gewaehrleistungen und Zusicherungen im Verschmelzungsvertrag. Die Rechtsabteilung der Bayer AG hat die Offenlegungen von Monsanto im Rahmen der Gewaehrleistungen einer nachtaeglichen Ueberpruefung unterzogen. ERGEBNISSE: (1) Die Offenlegung der Roundup-Klagen war zum Zeitpunkt des Vertragsschlusses formal korrekt (ca. 2.000 Klagen), spiegelte jedoch nicht das tatsaechliche Risikoprofil wider. (2) Monsantos interne Risikobewertung (Projektion: 20.000-50.000 Klagen, 2-7 Milliarden USD Haftung) wurde Bayer nicht zur Verfuegung gestellt. (3) Die englischsprachigen Gerichtsakten und internen Monsanto-Dokumente wurden von der deutschen Rechtsabteilung nicht vollstaendig ausgewertet. Schaetzungsweise 68% der relevanten US-Prozessakten haben keinen Niederschlag in den deutschsprachigen Due-Diligence-Berichten gefunden. (4) EMPFEHLUNG: Pruefung etwaiger Ansprueche aus Verletzung der Gewaehrleistungen, begrenzt durch die Freistellungsobergrenze von 2 Mrd USD.",
+  "summary": "68% der US-Prozessakten nicht in deutschen DD-Berichten beruecksichtigt. Interne Risikoprojektion nicht offengelegt.",
+  "language": "de",
+  "doc_type": "merger_agreement",
+  "jurisdiction": "DE",
+  "date": "2019-07-01",
+  "parties": [
+    "Bayer AG",
+    "Monsanto Company"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosat"
+  ],
+  "risk_factors": [
+    "68% Dokumentenluecke",
+    "Unvollstaendige Auswertung",
+    "Sprachbarriere"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-MRG-003",
+    "LEX-DD-001"
+  ],
+  "confidentiality": "privileged",
+  "tags": [
+    "gewaehrleistung",
+    "offenlegungsluecke",
+    "sprachbarriere",
+    "68_prozent"
+  ]
+}

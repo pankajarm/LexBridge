@@ -1,0 +1,39 @@
+{
+  "id": "LEX-SCI-004",
+  "title": "Monsanto-Funded Safety Study - Glyphosate Chronic Toxicity Review",
+  "content": "Comprehensive Review of Glyphosate Chronic Toxicity and Carcinogenicity Studies. Sponsored by Monsanto Company. Prepared by Regulatory Science Associates LLC. This review examines the complete database of chronic toxicity and carcinogenicity studies submitted to regulatory agencies worldwide. The database includes 15 chronic feeding studies in rats and 10 in mice, spanning over 40 years of testing. KEY FINDINGS: (1) No consistent pattern of tumors across studies. Isolated tumor findings in individual studies are within historical control ranges. (2) No evidence of a dose-response relationship for any tumor type. (3) The renal tubule tumors in male mice cited by IARC are a known spontaneous background finding in CD-1 mice with high historical control rates. (4) The hemangiosarcoma findings are within historical control ranges when appropriate concurrent controls are used. CONCLUSION: The weight of evidence from regulatory-quality animal studies does not support classification of glyphosate as a carcinogen. This conclusion is consistent with the findings of EPA, EFSA, JMPR, and other regulatory authorities. NOTE: This study was funded by Monsanto. Disclosure of funding source is provided per journal policy.",
+  "summary": "Monsanto-funded review finds no carcinogenic evidence. Notes tumor findings within historical controls.",
+  "language": "en",
+  "doc_type": "scientific_study",
+  "jurisdiction": "US",
+  "date": "2016-03-15",
+  "parties": [
+    "Monsanto Company",
+    "Regulatory Science Associates"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Conflict of Interest",
+    "Industry-Funded Research"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [
+    "EPA"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-SCI-002",
+    "LEX-SCI-003"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "industry_funded",
+    "safety_study",
+    "not_carcinogenic"
+  ]
+}

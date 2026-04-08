@@ -1,0 +1,47 @@
+{
+  "id": "LEX-MEM-003",
+  "title": "Vergleich der Freistellungsklauseln - Merger Agreement vs. Bestandsvertraege",
+  "content": "VERTRAULICH - Memorandum der Rechtsabteilung. Vergleichende Analyse der Freistellungsklauseln (Indemnification) in der Verschmelzungsvereinbarung und den bestehenden Monsanto-Vertraegen. ERGEBNISSE: (1) MERGER AGREEMENT: Die Verschmelzungsvereinbarung enthaelt eine Freistellungsklausel zugunsten von Bayer, die auf Verletzungen von Zusicherungen und Gewaehrleistungen beschraenkt ist. Die Freistellung ist auf 2 Milliarden USD begrenzt und unterliegt einem Freibetrag (Basket) von 250 Millionen USD. (2) MONSANTO DISTRIBUTIONSVERTRAEGE: Monsantos bestehende Distributionsvertraege enthalten UNBEGRENZTE Freistellungsklauseln zugunsten der Distribuoren fuer Produkthaftungsansprueche. Es bestehen ca. 200 solcher Vertraege weltweit. (3) LUECKE: Die Merger-Freistellung von 2 Milliarden USD steht in krassem Misverhaeltnis zu den unbegrenzten Freistellungsverpflichtungen gegenueber Distributoren. Nach Vollzug der Uebernahme werden diese unbegrenzten Verpflichtungen auf Bayer uebergehen.",
+  "summary": "Merger-Freistellung: 2 Mrd USD gedeckelt. Distributor-Vertraege: UNBEGRENZT. Massive Deckungsluecke identifiziert.",
+  "language": "de",
+  "doc_type": "legal_memo",
+  "jurisdiction": "DE",
+  "date": "2016-10-15",
+  "parties": [
+    "Bayer AG",
+    "Monsanto Company"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [],
+  "risk_factors": [
+    "Freistellungsluecke",
+    "Unbegrenzte Distributorenhaftung",
+    "Vertragsrisiko"
+  ],
+  "monetary_value": 2000000000,
+  "regulatory_bodies": [],
+  "contract_clauses": [
+    {
+      "clause_type": "merger_indemnification_cap",
+      "summary": "Merger-Freistellung auf 2 Mrd USD begrenzt",
+      "language": "de"
+    },
+    {
+      "clause_type": "unlimited_distributor_indemnity",
+      "summary": "Unbegrenzte Freistellung in Distributionsvertraegen",
+      "language": "de"
+    }
+  ],
+  "related_docs": [
+    "LEX-CON-001",
+    "LEX-MRG-002"
+  ],
+  "confidentiality": "privileged",
+  "tags": [
+    "freistellung",
+    "indemnification",
+    "deckungsluecke"
+  ]
+}

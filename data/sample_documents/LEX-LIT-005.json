@@ -1,0 +1,40 @@
+{
+  "id": "LEX-LIT-005",
+  "title": "Class Action - Dicamba Crop Damage Claims Against Monsanto",
+  "content": "Plaintiffs, a class of agricultural producers in the Midwest United States, bring this action against Monsanto Company and BASF for damages caused by off-target movement of dicamba herbicide. Monsanto's XtendiMax with VaporGrip Technology, designed for use with dicamba-tolerant Xtend crops, caused widespread drift damage to neighboring non-tolerant crops during the 2017 growing season. An estimated 3.6 million acres of soybeans were damaged across multiple states. Plaintiffs allege that Monsanto knew the dicamba formulation was prone to volatilization and drift but rushed the product to market to maintain its competitive position in the seed and herbicide market. State agricultural departments received thousands of drift complaints. The class seeks compensatory damages for crop losses, diminished land values, and additional farming expenses. This litigation represents an additional product liability exposure beyond the Roundup/glyphosate claims and demonstrates a pattern of Monsanto prioritizing market share over product safety.",
+  "summary": "Class action for dicamba crop drift damage. 3.6M acres affected. Additional product liability beyond Roundup.",
+  "language": "en",
+  "doc_type": "litigation_filing",
+  "jurisdiction": "US",
+  "date": "2017-10-20",
+  "parties": [
+    "Midwest Agricultural Producers",
+    "Monsanto Company",
+    "BASF"
+  ],
+  "products": [
+    "XtendiMax"
+  ],
+  "chemicals": [
+    "Dicamba"
+  ],
+  "risk_factors": [
+    "Product Liability",
+    "Crop Damage",
+    "Environmental"
+  ],
+  "monetary_value": 400000000,
+  "regulatory_bodies": [
+    "EPA"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-REG-001"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "dicamba",
+    "crop_damage",
+    "product_liability"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "LEX-CRB-003",
+  "title": "DOJ Antitrust Division - Bayer/Monsanto Merger Review",
+  "content": "UNITED STATES DEPARTMENT OF JUSTICE - Antitrust Division. The Department of Justice announces that it will permit Bayer's acquisition of Monsanto to proceed, subject to the divestiture of approximately $9 billion in Bayer and Monsanto assets to BASF. The required divestitures include Bayer's Liberty herbicide and LibertyLink trait businesses, Bayer's cotton, soybean, and canola seed businesses, and Monsanto's vegetable seed business intellectual property. The Department found that without these divestitures, the transaction would likely substantially lessen competition in multiple seed and crop protection markets. The DOJ consent decree requires completion of divestitures within specified timeframes and includes provisions for a divestiture trustee. NOTE: The DOJ review was limited to antitrust considerations. The Department did not evaluate Monsanto's product liability exposure from Roundup litigation as part of its merger review.",
+  "summary": "DOJ permits merger with $9B divestiture to BASF. Antitrust only - no Roundup liability assessment.",
+  "language": "en",
+  "doc_type": "cross_border_regulatory",
+  "jurisdiction": "US",
+  "date": "2018-05-29",
+  "parties": [
+    "Bayer AG",
+    "Monsanto Company",
+    "BASF",
+    "DOJ"
+  ],
+  "products": [],
+  "chemicals": [],
+  "risk_factors": [
+    "Divestiture Cost",
+    "No Product Liability Review"
+  ],
+  "monetary_value": 9000000000,
+  "regulatory_bodies": [
+    "DOJ"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-CRB-001",
+    "LEX-MRG-001"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "doj",
+    "antitrust",
+    "divestiture",
+    "basf"
+  ]
+}

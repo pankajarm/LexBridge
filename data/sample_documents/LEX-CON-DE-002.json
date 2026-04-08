@@ -1,0 +1,37 @@
+{
+  "id": "LEX-CON-DE-002",
+  "title": "Bayer Freistellungsklausel-Muster fuer Lieferantenvertraege",
+  "content": "MUSTERVERTRAG - Bayer AG Standardfreistellungsklausel fuer Lieferantenvertraege. Paragraf 12 - Freistellung: 12.1 Der Lieferant stellt den Kaeufer von allen Anspruechen Dritter frei, die auf Maengeln des gelieferten Materials beruhen. 12.2 Die Freistellungsverpflichtung ist auf den Nettorechnungswert der betroffenen Lieferung begrenzt. 12.3 Die Freistellung umfasst nicht Ansprueche, die auf der Weiterverarbeitung, Formulierung oder Kennzeichnung durch den Kaeufer beruhen. ANMERKUNG: Diese Freistellungsklausel entspricht dem deutschen Branchenstandard und reflektiert das Prinzip der verschuldensabhaengigen Haftung im deutschen Recht. Im Vergleich zu den US-amerikanischen Monsanto-Vertraegen (siehe LEX-CON-002) besteht ein erheblicher Unterschied in der Haftungsallokation.",
+  "summary": "Bayer-Standard: Freistellung auf Rechnungswert begrenzt. Kontrast zu unbegrenzter US-Praxis.",
+  "language": "de",
+  "doc_type": "contract_template",
+  "jurisdiction": "DE",
+  "date": "2017-06-01",
+  "parties": [
+    "Bayer AG"
+  ],
+  "products": [],
+  "chemicals": [],
+  "risk_factors": [
+    "Vertragsstandard-Divergenz"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [],
+  "contract_clauses": [
+    {
+      "clause_type": "freistellung_begrenzt",
+      "summary": "Freistellung auf Nettorechnungswert begrenzt",
+      "language": "de"
+    }
+  ],
+  "related_docs": [
+    "LEX-CON-002",
+    "LEX-CON-DE-001"
+  ],
+  "confidentiality": "internal",
+  "tags": [
+    "freistellungsklausel",
+    "lieferanten",
+    "branchenstandard"
+  ]
+}

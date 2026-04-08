@@ -1,0 +1,42 @@
+{
+  "id": "LEX-LIT-002",
+  "title": "Pilliod v. Monsanto Company - Punitive Damages Complaint",
+  "content": "Plaintiffs Alva and Alberta Pilliod, a married couple from Livermore, California, bring this product liability action against Monsanto Company. Both plaintiffs were diagnosed with non-Hodgkin lymphoma after using Roundup products on their residential properties for approximately thirty years. Plaintiffs allege that Monsanto knew or should have known that glyphosate-based herbicides posed a cancer risk to consumers and failed to provide adequate warnings. Discovery in prior litigation has revealed internal Monsanto communications demonstrating that the company actively sought to discredit the IARC classification and manipulate the scientific record regarding glyphosate carcinogenicity. Monsanto's internal risk assessments acknowledged potential liability exposure from product liability claims but prioritized market share protection over consumer safety disclosures. Plaintiffs seek compensatory damages of $55 million and punitive damages to deter future corporate misconduct. The magnitude of punitive damages sought reflects the egregious nature of Monsanto's conduct, including evidence of ghostwriting, regulatory manipulation, and systematic suppression of cancer research findings.",
+  "summary": "Married couple both diagnosed with NHL after 30 years of Roundup use. Seeking $55M compensatory plus punitive damages.",
+  "language": "en",
+  "doc_type": "litigation_filing",
+  "jurisdiction": "US",
+  "date": "2017-11-15",
+  "parties": [
+    "Alva Pilliod",
+    "Alberta Pilliod",
+    "Monsanto Company"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Product Liability",
+    "NHL Cancer Link",
+    "Punitive Damages"
+  ],
+  "monetary_value": 2055000000,
+  "regulatory_bodies": [
+    "IARC"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-LIT-001",
+    "LEX-SCI-001"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "roundup",
+    "glyphosate",
+    "nhl",
+    "punitive_damages"
+  ]
+}

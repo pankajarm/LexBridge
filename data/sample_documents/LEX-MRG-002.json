@@ -1,0 +1,48 @@
+{
+  "id": "LEX-MRG-002",
+  "title": "Verschmelzungsvertrag - Wesentliche Klauseln (Deutsche Zusammenfassung)",
+  "content": "ZUSAMMENFASSUNG DER WESENTLICHEN KLAUSELN des Verschmelzungsvertrages zwischen Bayer AG und Monsanto Company. (1) KAUFPREIS: 128 USD je Aktie, Gesamtvolumen ca. 63 Milliarden USD. (2) ZUSICHERUNGEN UND GEWAEHRLEISTUNGEN: Monsanto sichert zu, alle wesentlichen Rechtsstreitigkeiten offengelegt zu haben. Der Offenlegungsanhang (Exhibit F) listet ca. 2.000 Produkthaftungsklagen im Zusammenhang mit Roundup auf. (3) WESENTLICHE NACHTEILIGE VERAENDERUNG (MAE): Die MAE-Definition schliesst laufende Rechtsstreitigkeiten aus, sofern die erwartete Gesamthaftung 3 Milliarden USD nicht uebersteigt. KRITISCHE BEWERTUNG: Die MAE-Schwelle von 3 Milliarden USD basiert auf der Due-Diligence-Einschaetzung vom August 2016, die die tatsaechliche Haftung massiv unterschaetzt hat. (4) FREISTELLUNG: Bayer kann Freistellung fuer Verletzungen von Zusicherungen verlangen, begrenzt auf 2 Milliarden USD mit einem Freibetrag von 250 Millionen USD. Diese Obergrenze ist angesichts der tatsaechlichen Exposition von 10+ Milliarden USD voellig unzureichend.",
+  "summary": "Deutsche Zusammenfassung des Merger Agreement. MAE bei 3 Mrd, Freistellung bei 2 Mrd - als unzureichend bewertet.",
+  "language": "de",
+  "doc_type": "merger_agreement",
+  "jurisdiction": "DE",
+  "date": "2016-09-14",
+  "parties": [
+    "Bayer AG",
+    "Monsanto Company"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosat"
+  ],
+  "risk_factors": [
+    "MAE-Schwelle unzureichend",
+    "Freistellungsgrenze unzureichend"
+  ],
+  "monetary_value": 63000000000,
+  "regulatory_bodies": [],
+  "contract_clauses": [
+    {
+      "clause_type": "mae_klausel",
+      "summary": "MAE schliesst Klagen unter 3 Mrd USD aus",
+      "language": "de"
+    },
+    {
+      "clause_type": "freistellungsobergrenze",
+      "summary": "Freistellung auf 2 Mrd USD begrenzt",
+      "language": "de"
+    }
+  ],
+  "related_docs": [
+    "LEX-MRG-001",
+    "LEX-MEM-003"
+  ],
+  "confidentiality": "internal",
+  "tags": [
+    "verschmelzungsvertrag",
+    "mae",
+    "freistellung"
+  ]
+}

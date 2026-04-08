@@ -1,0 +1,36 @@
+{
+  "id": "LEX-SH-001",
+  "title": "Einladung zur Hauptversammlung - Beschlussfassung Monsanto-Uebernahme",
+  "content": "BAYER AKTIENGESELLSCHAFT - Einladung zur ausserordentlichen Hauptversammlung am 28. April 2017 in Bonn. Tagesordnungspunkt: Genehmigung der geplanten Kapitalerhoehung zur teilweisen Finanzierung der Uebernahme der Monsanto Company. Der Vorstand und Aufsichtsrat empfehlen die Annahme des Beschlusses. BEGRUENDUNG: Die Uebernahme von Monsanto wird Bayer zum weltweit fuehrenden Unternehmen in der Agrarwirtschaft machen. Erwartete Synergien von 1,2 Milliarden USD jaehrlich ab 2022. Die strategischen Vorteile ueberwiegen die Risiken. HINWEIS AUF RISIKEN: Die Monsanto-Uebernahme ist mit Risiken verbunden, insbesondere: (a) Produkthaftungsklagen in den USA wegen Roundup-Herbiziden; (b) regulatorische Risiken; (c) Integrationsrisiken; (d) Verschuldungsrisiko. Details zu den Risiken entnehmen Sie bitte dem beigefuegten Uebernahmebericht.",
+  "summary": "Hauptversammlung zur Kapitalerhoehung. Synergien von 1,2 Mrd USD angepriesen. Risiken nur knapp erwaehnt.",
+  "language": "de",
+  "doc_type": "shareholder_communication",
+  "jurisdiction": "DE",
+  "date": "2017-03-15",
+  "parties": [
+    "Bayer AG"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [],
+  "risk_factors": [
+    "Aktionaersinformation",
+    "Unzureichende Risikodarstellung"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [
+    "BaFin"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-SH-002",
+    "LEX-BD-001"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "hauptversammlung",
+    "kapitalerhoehung",
+    "aktionaere"
+  ]
+}

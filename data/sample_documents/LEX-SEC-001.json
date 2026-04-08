@@ -1,0 +1,43 @@
+{
+  "id": "LEX-SEC-001",
+  "title": "Monsanto 10-K Annual Report - Risk Factor Disclosures FY2017",
+  "content": "MONSANTO COMPANY - FORM 10-K FOR THE FISCAL YEAR ENDED AUGUST 31, 2017. ITEM 1A - RISK FACTORS (EXCERPT): Product Liability Litigation: We are defendants in a number of lawsuits alleging that our Roundup herbicide products cause cancer, specifically non-Hodgkin lymphoma. As of August 31, 2017, approximately 3,500 plaintiffs have filed lawsuits in state and federal courts throughout the United States. The first trial is expected in 2018. We believe these claims are without merit and intend to vigorously defend against them. However, the outcome of litigation is inherently uncertain, and adverse verdicts in one or more of these cases could result in significant financial liability. We have not established a litigation reserve for these claims as we believe the probability of loss is not yet determinable. Regulatory Matters: The IARC classification of glyphosate as Group 2A 'probably carcinogenic' has generated negative publicity and could adversely affect consumer perceptions of our products. Although we disagree with the IARC classification and regulatory authorities including the EPA continue to find glyphosate safe for use as directed, the classification may result in additional regulatory actions or restrictions in certain jurisdictions.",
+  "summary": "10-K discloses 3,500 Roundup lawsuits. No litigation reserve established. Claims deemed 'without merit.'",
+  "language": "en",
+  "doc_type": "sec_filing",
+  "jurisdiction": "US",
+  "date": "2017-10-20",
+  "parties": [
+    "Monsanto Company",
+    "SEC"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Litigation Risk Disclosure",
+    "No Reserve Established",
+    "Regulatory Uncertainty"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [
+    "SEC",
+    "EPA",
+    "IARC"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-SEC-002",
+    "LEX-RISK-001"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "sec",
+    "10k",
+    "risk_factors",
+    "no_reserve"
+  ]
+}

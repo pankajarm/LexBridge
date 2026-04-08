@@ -1,0 +1,34 @@
+{
+  "id": "LEX-SCI-003",
+  "title": "Independent Epidemiology Meta-Analysis - Glyphosate and NHL Risk",
+  "content": "Meta-Analysis of Glyphosate Exposure and Risk of Non-Hodgkin Lymphoma. Published in Mutation Research/Reviews in Mutation Research, 2019. Authors: Zhang L, Rana I, Shaffer RM, et al., University of Washington. This updated meta-analysis incorporates published and unpublished data from the Agricultural Health Study (AHS) through 2015 follow-up. METHODS: Systematic review of all epidemiological studies published through 2018. Six case-control studies and one cohort study (AHS) met inclusion criteria. Random-effects meta-analysis was performed. RESULTS: The overall meta-relative risk for NHL with the highest exposure category of glyphosate was 1.41 (95% CI: 1.13-1.75). When restricted to studies adjusting for other pesticide exposure, the association strengthened (meta-RR = 1.45, 95% CI: 1.11-1.91). Inclusion of updated AHS data did not materially change the results. CONCLUSIONS: This meta-analysis confirms a compelling link between exposure to glyphosate-based herbicides and increased risk of NHL. The findings are consistent with the IARC assessment and support the biological plausibility of a causal relationship.",
+  "summary": "Independent meta-analysis finds 41% increased NHL risk (RR 1.41). Confirms IARC assessment.",
+  "language": "en",
+  "doc_type": "scientific_study",
+  "jurisdiction": "US",
+  "date": "2019-02-10",
+  "parties": [],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Epidemiological Evidence",
+    "NHL Risk Increase"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-SCI-001",
+    "LEX-SCI-004"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "meta_analysis",
+    "nhl",
+    "independent_research"
+  ]
+}

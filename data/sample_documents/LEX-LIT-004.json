@@ -1,0 +1,38 @@
+{
+  "id": "LEX-LIT-004",
+  "title": "In re Roundup Products Liability Litigation - MDL 2741 Transfer Order",
+  "content": "The United States Judicial Panel on Multidistrict Litigation hereby transfers all pending federal cases alleging that exposure to Roundup herbicide products caused non-Hodgkin lymphoma and other cancers to the Northern District of California for coordinated pretrial proceedings. As of the date of this order, approximately 400 cases are pending in 42 federal district courts across the United States. These cases share common questions of fact regarding the alleged carcinogenicity of glyphosate, Monsanto's knowledge of health risks, and the adequacy of product warnings. The transferee court will manage discovery, Daubert challenges to expert testimony, and selection of bellwether trials. Monsanto estimates that thousands of additional cases may be filed as plaintiff advertising continues. The company's internal projections indicate potential liability exposure in the billions of dollars if early bellwether trials result in plaintiff verdicts. This MDL consolidation represents one of the largest product liability litigations in US history and poses material risk to Monsanto's financial condition and operations.",
+  "summary": "MDL 2741 consolidation order. 400+ federal Roundup/NHL cases centralized. Billions in projected exposure.",
+  "language": "en",
+  "doc_type": "litigation_filing",
+  "jurisdiction": "US",
+  "date": "2016-10-03",
+  "parties": [
+    "MDL Plaintiffs",
+    "Monsanto Company"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Mass Tort Litigation",
+    "Product Liability",
+    "Financial Exposure"
+  ],
+  "monetary_value": 5000000000,
+  "regulatory_bodies": [],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-LIT-003",
+    "LEX-RISK-001"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "mdl_2741",
+    "mass_tort",
+    "product_liability"
+  ]
+}

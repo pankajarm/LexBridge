@@ -1,0 +1,36 @@
+{
+  "id": "LEX-SH-002",
+  "title": "Aktionaersbrief - Aktualisierte Risikobewertung Monsanto",
+  "content": "Sehr geehrte Aktionaere, der Vorstand der Bayer AG informiert Sie ueber den aktuellen Stand der Monsanto-Integration. Nach dem erfolgreichen Abschluss der Uebernahme im Juni 2018 schreitet die Integration planmaessig voran. Wir moechten Sie jedoch ueber eine wesentliche Entwicklung informieren: Die Zahl der Produkthaftungsklagen im Zusammenhang mit Roundup-Herbiziden hat sich seit Abschluss der Transaktion erheblich erhoeht. Derzeit sind weltweit ca. 11.200 Klagen anhaengig (gegenueber 8.000 zum Zeitpunkt des Closings und 2.000 zum Zeitpunkt der Vertragsunterzeichnung). Bayer ist weiterhin ueberzeugt, dass Glyphosat bei sachgemaesser Anwendung sicher ist und wird sich gegen unberechtigt Klagen nachdrucklich verteidigen. Unser Ziel bleibt es, langfristig Werte fuer unsere Aktionaere zu schaffen. Die erwarteten Synergien der Monsanto-Integration von 1,2 Milliarden USD jaehrlich werden ab 2022 vollstaendig realisiert.",
+  "summary": "Aktionaersbrief: Klagen auf 11.200 gestiegen. War 2.000 bei Vertragsschluss. Synergien weiter betont.",
+  "language": "de",
+  "doc_type": "shareholder_communication",
+  "jurisdiction": "DE",
+  "date": "2018-11-30",
+  "parties": [
+    "Bayer AG"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosat"
+  ],
+  "risk_factors": [
+    "Klagenexplosion",
+    "Aktionaerstransparenz"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-SH-001",
+    "LEX-BD-003"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "aktionaersbrief",
+    "klagezahl",
+    "transparenz"
+  ]
+}

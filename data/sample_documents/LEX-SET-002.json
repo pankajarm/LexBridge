@@ -1,0 +1,44 @@
+{
+  "id": "LEX-SET-002",
+  "title": "Roundup MDL Global Settlement Framework - $10.9 Billion Resolution",
+  "content": "Bayer AG announces a comprehensive settlement framework to resolve the Roundup litigation in the United States. The agreement provides approximately $10.9 billion to resolve approximately 100,000 current and potential future claims alleging Roundup herbicide caused non-Hodgkin lymphoma. The settlement is structured as follows: (1) $8.8-9.6 billion to resolve approximately 75% of currently filed claims through a series of plaintiff-firm-specific agreements; (2) $1.25 billion to address potential future claims through a proposed class settlement establishing a science panel to evaluate the glyphosate-NHL link; (3) Individual settlements for cases not covered by firm-specific agreements. The settlement does not include an admission of liability or wrongdoing. Bayer will continue to sell Roundup products and will not add cancer warnings to product labels. The proposed future claims resolution was subsequently rejected by the Eighth Circuit Court of Appeals, leaving Bayer exposed to ongoing claim filings. As of 2026, approximately 65,000 claims remain unresolved, and Bayer has proposed a $7.25 billion class-action settlement for these remaining cases.",
+  "summary": "$10.9B global settlement for ~100,000 claims. Future claims class rejected. 65,000 claims still pending in 2026.",
+  "language": "en",
+  "doc_type": "settlement_agreement",
+  "jurisdiction": "US",
+  "date": "2020-06-24",
+  "parties": [
+    "Bayer AG",
+    "MDL Plaintiffs"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Mass Settlement",
+    "Future Claims Exposure",
+    "Ongoing Liability"
+  ],
+  "monetary_value": 10900000000,
+  "regulatory_bodies": [],
+  "contract_clauses": [
+    {
+      "clause_type": "mass_settlement",
+      "summary": "$10.9B framework for 100,000 claims",
+      "language": "en"
+    }
+  ],
+  "related_docs": [
+    "LEX-LIT-004",
+    "LEX-RISK-001"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "global_settlement",
+    "roundup",
+    "10_billion"
+  ]
+}

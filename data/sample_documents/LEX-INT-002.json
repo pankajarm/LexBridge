@@ -1,0 +1,32 @@
+{
+  "id": "LEX-INT-002",
+  "title": "Integrationsplan - IT-Systeme und Compliance",
+  "content": "VERTRAULICH - Projektplan zur Integration der IT-Systeme und Compliance-Infrastruktur. SCHWERPUNKTE: (1) Zusammenfuehrung der Dokumentenmanagementsysteme: Monsanto nutzt ein US-basiertes System mit ausschliesslich englischsprachiger Oberflaeche. Bayer verwendet SAP-basierte Loesungen mit deutscher Lokalisierung. Die Migration erfordert zweisprachige Indizierung aller Dokumente. (2) E-Discovery Readiness: Angesichts der laufenden Roundup-Litigation muss das konsolidierte System US-E-Discovery-Anforderungen erfuellen. Saemtliche relevanten Dokumente muessen in englischer Sprache durchsuchbar sein. (3) Compliance-Training: Alle Bayer-Mitarbeiter mit Zugang zu Monsanto-Daten muessen in US-Datenschutz und Litigation-Hold-Verfahren geschult werden. (4) Budget: Geschaetzte IT-Integrationskosten: 150-200 Millionen USD ueber drei Jahre.",
+  "summary": "IT-Integration: zweisprachige Dokumentensysteme, E-Discovery Readiness. Kosten: 150-200 Mio USD.",
+  "language": "de",
+  "doc_type": "integration_plan",
+  "jurisdiction": "DE",
+  "date": "2018-04-15",
+  "parties": [
+    "Bayer AG"
+  ],
+  "products": [],
+  "chemicals": [],
+  "risk_factors": [
+    "IT-Integrationskosten",
+    "E-Discovery Anforderungen",
+    "Sprachbarrieren"
+  ],
+  "monetary_value": 200000000,
+  "regulatory_bodies": [],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-INT-001"
+  ],
+  "confidentiality": "internal",
+  "tags": [
+    "it_integration",
+    "compliance",
+    "e_discovery"
+  ]
+}

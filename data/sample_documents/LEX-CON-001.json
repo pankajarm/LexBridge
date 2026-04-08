@@ -1,0 +1,43 @@
+{
+  "id": "LEX-CON-001",
+  "title": "Monsanto Distributor Agreement - Indemnification Provisions",
+  "content": "DISTRIBUTION AGREEMENT between Monsanto Company ('Manufacturer') and AgriChem Distributors, Inc. ('Distributor'). Section 12 - INDEMNIFICATION: 12.1 Manufacturer shall indemnify, defend, and hold harmless Distributor from and against any and all claims, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising from: (a) product defects in Manufacturer's products; (b) failure of Manufacturer to provide adequate warnings regarding health or environmental risks; (c) personal injury or property damage claims related to Manufacturer's products. 12.2 THE INDEMNIFICATION OBLIGATION UNDER THIS SECTION IS UNLIMITED and shall survive termination of this agreement. 12.3 Manufacturer shall maintain product liability insurance with minimum limits of $50 million per occurrence and $100 million annual aggregate. 12.4 Distributor shall promptly notify Manufacturer of any claim and cooperate in the defense thereof. IMPORTANT: This unlimited indemnification provision creates open-ended liability for Monsanto for all downstream product claims made through the distribution channel. Similar provisions exist in approximately 200 distributor agreements covering North American, Latin American, and European distribution networks.",
+  "summary": "Unlimited indemnification of distributors for product claims. ~200 similar agreements in force worldwide.",
+  "language": "en",
+  "doc_type": "indemnification_clause",
+  "jurisdiction": "US",
+  "date": "2015-03-01",
+  "parties": [
+    "Monsanto Company",
+    "AgriChem Distributors"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Unlimited Indemnification",
+    "Downstream Liability"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [],
+  "contract_clauses": [
+    {
+      "clause_type": "unlimited_indemnification",
+      "summary": "Unlimited indemnity for product defect and failure-to-warn claims",
+      "language": "en"
+    }
+  ],
+  "related_docs": [
+    "LEX-CON-002",
+    "LEX-MRG-001"
+  ],
+  "confidentiality": "confidential",
+  "tags": [
+    "indemnification",
+    "distributor",
+    "unlimited_liability"
+  ]
+}

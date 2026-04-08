@@ -1,0 +1,49 @@
+{
+  "id": "LEX-SEC-002",
+  "title": "Monsanto 8-K Current Report - Merger Agreement with Bayer",
+  "content": "MONSANTO COMPANY - FORM 8-K CURRENT REPORT. Item 1.01 - Entry into a Material Definitive Agreement. On September 14, 2016, Monsanto Company entered into an Agreement and Plan of Merger with Bayer Aktiengesellschaft, a German company, and KWA Investment Co., a wholly-owned subsidiary of Bayer, pursuant to which Bayer will acquire all outstanding shares of Monsanto common stock for $128.00 per share in an all-cash transaction valued at approximately $63 billion, including Monsanto's net debt. The merger is subject to: (a) approval by Monsanto shareholders; (b) regulatory approvals including from the US Department of Justice, European Commission, and other competition authorities; (c) customary closing conditions. The merger agreement contains customary representations and warranties, including representations by Monsanto regarding pending litigation and regulatory proceedings. Item 8.01 - Pending Litigation: Monsanto has disclosed to Bayer the existence of lawsuits alleging Roundup causes cancer. As of the date of this report, approximately 2,000 such cases are pending. The merger agreement includes a Material Adverse Effect clause that excludes pending litigation from the definition of an MAE unless it would reasonably be expected to result in liability exceeding $3 billion.",
+  "summary": "$63B merger announced. MAE clause excludes litigation unless expected to exceed $3B. ~2,000 Roundup cases disclosed.",
+  "language": "en",
+  "doc_type": "sec_filing",
+  "jurisdiction": "US",
+  "date": "2016-09-14",
+  "parties": [
+    "Monsanto Company",
+    "Bayer AG"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "MAE Threshold",
+    "Litigation Disclosure",
+    "Merger Risk"
+  ],
+  "monetary_value": 63000000000,
+  "regulatory_bodies": [
+    "SEC",
+    "DOJ",
+    "EU Commission"
+  ],
+  "contract_clauses": [
+    {
+      "clause_type": "material_adverse_effect",
+      "summary": "MAE excludes litigation unless >$3B expected liability",
+      "language": "en"
+    }
+  ],
+  "related_docs": [
+    "LEX-MRG-001",
+    "LEX-CRB-001"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "sec",
+    "8k",
+    "merger",
+    "mae_clause"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "LEX-BAF-001",
+  "title": "BaFin Meldung - Uebernahmevorhaben Bayer/Monsanto",
+  "content": "Pflichtmitteilung gemaess Wertpapiererwerbs- und Uebernahmegesetz (WpUeG). Die Bayer Aktiengesellschaft, Leverkusen, beabsichtigt, saemtliche Anteile der Monsanto Company, Wilmington, Delaware, USA, im Wege eines oeffentlichen Uebernahmeangebots zu erwerben. Der Angebotspreis betraegt 128 USD je Stammaktie der Monsanto Company. Das Gesamtvolumen der Transaktion belaeuft sich auf ca. 63 Milliarden USD. Die Transaktion soll durch eine Kombination aus Fremdkapital (ca. 57 Milliarden USD), einer Kapitalerhoehung und vorhandenen Barmitteln finanziert werden. Bayer hat verbindliche Finanzierungszusagen von Bank of America, Credit Suisse und HSBC erhalten. Die Durchfuehrung des Angebots steht unter dem Vorbehalt kartellrechtlicher Genehmigungen in den USA, der EU und weiteren Jurisdiktionen.",
+  "summary": "Pflichtmeldung an BaFin. 63 Mrd USD Uebernahme, finanziert durch 57 Mrd Fremdkapital plus Kapitalerhoehung.",
+  "language": "de",
+  "doc_type": "bafin_filing",
+  "jurisdiction": "DE",
+  "date": "2016-09-15",
+  "parties": [
+    "Bayer AG",
+    "Monsanto Company"
+  ],
+  "products": [],
+  "chemicals": [],
+  "risk_factors": [
+    "Verschuldungsrisiko",
+    "Finanzierungsrisiko"
+  ],
+  "monetary_value": 63000000000,
+  "regulatory_bodies": [
+    "BaFin"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-BAF-002",
+    "LEX-SEC-002"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "bafin",
+    "pflichtmeldung",
+    "uebernahme"
+  ]
+}

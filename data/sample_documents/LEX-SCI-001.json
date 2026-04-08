@@ -1,0 +1,39 @@
+{
+  "id": "LEX-SCI-001",
+  "title": "IARC Working Group - Glyphosate Carcinogenicity Evaluation Summary",
+  "content": "Summary of IARC Monograph 112 Working Group evaluation of glyphosate carcinogenicity. HUMAN EVIDENCE (Limited): Meta-analysis of six case-control studies of NHL and glyphosate exposure showed a statistically significant positive association (meta-RR = 1.3, 95% CI 1.0-1.6). Positive associations were observed in studies from the United States, Canada, and Sweden. The Agricultural Health Study, a large US prospective cohort, did not show a statistically significant association but had limited follow-up time. ANIMAL EVIDENCE (Sufficient): Significant increases in renal tubule carcinoma in male CD-1 mice and hemangiosarcoma in male CD-1 mice in two studies. Rare tumor types were also observed. MECHANISTIC EVIDENCE (Strong): Glyphosate caused DNA damage in multiple in vitro and in vivo test systems. Oxidative stress biomarkers were elevated in exposed human populations. Genotoxicity was observed in human cells at concentrations achievable through occupational exposure. OVERALL EVALUATION: Group 2A - Probably carcinogenic to humans.",
+  "summary": "IARC evaluation: limited human evidence (NHL meta-RR 1.3), sufficient animal evidence, strong mechanistic data.",
+  "language": "en",
+  "doc_type": "scientific_study",
+  "jurisdiction": "INTL",
+  "date": "2015-07-29",
+  "parties": [
+    "IARC"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Carcinogenicity Evidence",
+    "NHL Association"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [
+    "IARC"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-REG-002",
+    "LEX-SCI-002"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "iarc",
+    "carcinogenicity",
+    "meta_analysis",
+    "nhl"
+  ]
+}

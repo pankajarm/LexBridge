@@ -1,0 +1,40 @@
+{
+  "id": "LEX-DD-002",
+  "title": "Sorgfaltspruefung - Regulatorische Risiken Glyphosat",
+  "content": "VERTRAULICH - Bericht der regulatorischen Sorgfaltspruefung. Abschnitt: Regulatorische Risiken der Glyphosat-Registrierung weltweit. (1) USA: Die EPA hat die Neubewertung von Glyphosat eingeleitet. Eine Registrierungserneuerung wird fuer 2019 erwartet. Risiko eines Registrierungsentzugs: GERING. (2) EU: Die Europaeische Kommission hat die Genehmigung von Glyphosat im November 2017 um fuenf Jahre verlaengert. Einige Mitgliedstaaten (Frankreich, Oesterreich) haben nationale Verbote angekuendigt. Risiko eines EU-weiten Verbots: MITTEL. (3) Asien: Vietnam hat ein Importverbot fuer Glyphosat eingefuehrt. Thailand hat ein befristetes Verbot verhaengt. Risiko: GERING bis MITTEL je nach Markt. (4) Lateinamerika: Kolumbien hat die Anwendung von Glyphosat fuer Kokainvernichtung eingestellt. Ansonsten keine wesentlichen regulatorischen Risiken. GESAMTBEWERTUNG: Die regulatorischen Risiken sind diversifiziert und in der Gesamtheit als beherrschbar einzustufen. Ein weltweites Verbot von Glyphosat ist unwahrscheinlich.",
+  "summary": "Regulatorische Due Diligence: EPA-Risiko gering, EU-Verbot mittel. Gesamtbewertung: beherrschbar.",
+  "language": "de",
+  "doc_type": "due_diligence_report",
+  "jurisdiction": "DE",
+  "date": "2016-09-05",
+  "parties": [
+    "Bayer AG"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosat"
+  ],
+  "risk_factors": [
+    "Regulatorisches Risiko",
+    "EU-Verbotsrisiko",
+    "Internationale Restriktionen"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [
+    "EPA",
+    "EU Commission"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-DD-001",
+    "LEX-DD-003"
+  ],
+  "confidentiality": "privileged",
+  "tags": [
+    "regulatorisch",
+    "glyphosat",
+    "eu_verbot"
+  ]
+}

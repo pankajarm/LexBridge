@@ -1,0 +1,56 @@
+{
+  "Bayer AG": [
+    "Bayer",
+    "Bayer CropScience"
+  ],
+  "Monsanto Company": [
+    "Monsanto",
+    "Monsanto Co."
+  ],
+  "Roundup": [
+    "Roundup Ready",
+    "Roundup PowerMax"
+  ],
+  "Glyphosate": [
+    "Glyphosat",
+    "N-(phosphonomethyl)glycine"
+  ],
+  "EPA": [
+    "Environmental Protection Agency",
+    "US EPA"
+  ],
+  "BaFin": [
+    "Bundesanstalt fuer Finanzdienstleistungsaufsicht"
+  ],
+  "Non-Hodgkin Lymphoma": [
+    "NHL",
+    "Non-Hodgkin-Lymphom"
+  ],
+  "Product Liability": [
+    "Produkthaftung"
+  ],
+  "Due Diligence": [
+    "Sorgfaltspruefung"
+  ],
+  "Indemnification": [
+    "Freistellung",
+    "Freistellungsklausel"
+  ],
+  "Risk Assessment": [
+    "Risikobewertung"
+  ],
+  "Board Meeting": [
+    "Vorstandssitzung"
+  ],
+  "Settlement": [
+    "Vergleich",
+    "Vergleichsvereinbarung"
+  ],
+  "Merger Agreement": [
+    "Verschmelzungsvertrag"
+  ],
+  "Material Adverse Effect": [
+    "Wesentliche Nachteilige Veraenderung",
+    "MAE"
+  ]
+}

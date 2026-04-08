@@ -1,0 +1,37 @@
+{
+  "id": "LEX-DD-003",
+  "title": "Finanzielle Bewertung - Klagenkomplex Roundup",
+  "content": "VERTRAULICH - Finanzielle Bewertung des Roundup-Klagenkomplexes fuer die Vorstandsentscheidung. Erstellt von der Finanzabteilung in Zusammenarbeit mit externen Beratern. METHODIK: Vergleichsanalyse historischer Massenschadensfaelle in den USA (Asbest, Tabak, Opioid-Krise). ERGEBNISSE: (1) Basissszenario: 5.000 Klagen, durchschnittliche Vergleichssumme 100.000 USD = 500 Millionen USD. (2) Moderates Szenario: 15.000 Klagen, durchschnittliche Vergleichssumme 200.000 USD = 3 Milliarden USD. (3) Pessimistisches Szenario: 50.000 Klagen, durchschnittliche Vergleichssumme 200.000 USD = 10 Milliarden USD. ANMERKUNG: Das pessimistische Szenario wurde als unwahrscheinlich eingestuft, da es eine zehnfache Zunahme der Klagezahl voraussetzt. EMPFEHLUNG: Einstellung einer Ruecklage von 1 Milliarde USD im Rahmen der Uebernahmeplanung. Die tatsaechliche Haftung wird voraussichtlich im Bereich des Basisszenarios liegen.",
+  "summary": "Finanzanalyse: 3 Szenarien von 500 Mio bis 10 Mrd USD. Pessimistisches Szenario als 'unwahrscheinlich' bewertet.",
+  "language": "de",
+  "doc_type": "due_diligence_report",
+  "jurisdiction": "DE",
+  "date": "2016-09-10",
+  "parties": [
+    "Bayer AG"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosat"
+  ],
+  "risk_factors": [
+    "Finanzielle Fehlbewertung",
+    "Unterschaetzte Klagezahl",
+    "Szenarienanalyse"
+  ],
+  "monetary_value": 10000000000,
+  "regulatory_bodies": [],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-DD-001",
+    "LEX-BD-001"
+  ],
+  "confidentiality": "privileged",
+  "tags": [
+    "finanzanalyse",
+    "szenarien",
+    "unterschaetzung"
+  ]
+}

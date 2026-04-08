@@ -1,0 +1,37 @@
+{
+  "id": "LEX-SCI-002",
+  "title": "EPA Office of Pesticide Programs - Glyphosate Cancer Assessment",
+  "content": "EPA Office of Pesticide Programs Revised Glyphosate Issue Paper: Evaluation of Carcinogenic Potential. EPA evaluated the full body of evidence including epidemiological studies, animal carcinogenicity studies, and genotoxicity assays. EPIDEMIOLOGICAL EVIDENCE: EPA reviewed 23 epidemiological studies of glyphosate and cancer, including 16 case-control studies and 7 cohort studies. The Agricultural Health Study (AHS), a prospective cohort of over 50,000 licensed pesticide applicators, found no statistically significant association between glyphosate use and NHL overall or any specific NHL subtype. EPA gave greatest weight to the AHS due to its prospective design and detailed exposure assessment. ANIMAL EVIDENCE: EPA reviewed 15 chronic/carcinogenicity studies in rats and mice. EPA concluded that the tumor findings cited by IARC were not treatment-related based on historical control data, lack of dose-response, and statistical considerations. GENOTOXICITY: EPA found the weight of evidence does not support a mutagenic mode of action. OVERALL CONCLUSION: Not likely to be carcinogenic to humans.",
+  "summary": "EPA concludes 'not likely carcinogenic.' Gives most weight to Agricultural Health Study showing no NHL link.",
+  "language": "en",
+  "doc_type": "scientific_study",
+  "jurisdiction": "US",
+  "date": "2016-09-12",
+  "parties": [
+    "EPA"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Conflicting Scientific Evidence"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [
+    "EPA"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-SCI-001",
+    "LEX-REG-001"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "epa",
+    "cancer_assessment",
+    "not_carcinogenic"
+  ]
+}

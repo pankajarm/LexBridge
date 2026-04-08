@@ -1,0 +1,42 @@
+{
+  "id": "LEX-REG-002",
+  "title": "IARC Monograph 112 - Glyphosate Classification Notification",
+  "content": "The International Agency for Research on Cancer (IARC) hereby notifies stakeholders of the publication of IARC Monograph Volume 112, evaluating the carcinogenicity of five organophosphate insecticides and herbicides, including glyphosate. Following review by a Working Group of 17 international experts from 11 countries, IARC has classified glyphosate as 'probably carcinogenic to humans' (Group 2A). This classification is based on 'limited' evidence of cancer in humans for non-Hodgkin lymphoma, 'sufficient' evidence of cancer in experimental animals, and 'strong' evidence of genotoxicity and oxidative stress mechanisms. The human evidence includes case-control studies of occupational exposure in the USA, Canada, and Sweden reporting increased risks of NHL among agricultural workers exposed to glyphosate. The Working Group noted that glyphosate is the most widely used herbicide globally, with production volumes that have increased approximately 100-fold since 1974. IARC emphasizes that its evaluations are hazard identifications and do not quantify risk at specific exposure levels. This classification has significant implications for regulatory agencies worldwide and for ongoing product liability litigation in the United States.",
+  "summary": "IARC classifies glyphosate as Group 2A 'probably carcinogenic.' Based on NHL evidence in agricultural workers.",
+  "language": "en",
+  "doc_type": "regulatory_correspondence",
+  "jurisdiction": "INTL",
+  "date": "2015-03-20",
+  "parties": [
+    "IARC",
+    "WHO"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Carcinogenicity Classification",
+    "Regulatory Risk",
+    "NHL Cancer Link"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [
+    "IARC"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-REG-001",
+    "LEX-SCI-001"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "iarc",
+    "glyphosate",
+    "carcinogenic",
+    "group_2a",
+    "nhl"
+  ]
+}

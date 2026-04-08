@@ -1,0 +1,38 @@
+{
+  "id": "LEX-CON-DE-001",
+  "title": "Bayer Produkthaftungs-Vertragsmuster fuer Distributoren",
+  "content": "MUSTERVERTRAG - Bayer AG Standardvertrag fuer Distributionsvereinbarungen. Paragraf 8 - Haftung und Freistellung: 8.1 Die Haftung des Herstellers fuer Sachmaengel ist auf Nachbesserung oder Ersatzlieferung beschraenkt. 8.2 Die Haftung fuer Mangelfolgeschaeden ist auf den vorhersehbaren, vertragstypischen Schaden begrenzt. 8.3 Die Gesamthaftung des Herstellers ist auf den zweifachen Jahresumsatz mit dem jeweiligen Distributor begrenzt. 8.4 Die Haftung fuer Vorsatz und grobe Fahrlaessigkeit sowie fuer Schaeden aus der Verletzung des Lebens, des Koerpers oder der Gesundheit bleibt unberuehrt. VERGLEICH MIT MONSANTO-VERTRAEGEN: Das Bayer-Vertragsmuster enthaelt Haftungsbegrenzungen, die in den Monsanto-Distributionsvertraegen vollstaendig fehlen. Die Integration erfordert die Harmonisierung der Vertragsstandards.",
+  "summary": "Bayer-Standard: Haftung auf 2x Jahresumsatz begrenzt. Monsanto-Vertraege: UNBEGRENZT. Harmonisierung noetig.",
+  "language": "de",
+  "doc_type": "contract_template",
+  "jurisdiction": "DE",
+  "date": "2017-06-01",
+  "parties": [
+    "Bayer AG"
+  ],
+  "products": [],
+  "chemicals": [],
+  "risk_factors": [
+    "Vertragsinkonsistenz",
+    "Haftungsdivergenz"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [],
+  "contract_clauses": [
+    {
+      "clause_type": "haftungsbegrenzung",
+      "summary": "Haftung auf zweifachen Jahresumsatz begrenzt",
+      "language": "de"
+    }
+  ],
+  "related_docs": [
+    "LEX-CON-001",
+    "LEX-MEM-003"
+  ],
+  "confidentiality": "internal",
+  "tags": [
+    "vertragsmuster",
+    "haftungsbegrenzung",
+    "distributoren"
+  ]
+}

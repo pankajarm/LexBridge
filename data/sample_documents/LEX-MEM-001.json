@@ -1,0 +1,36 @@
+{
+  "id": "LEX-MEM-001",
+  "title": "Rechtsabteilung - Memorandum zur US-Produkthaftung",
+  "content": "VERTRAULICH - Memorandum der Rechtsabteilung der Bayer AG. Betreff: Grundzuege des US-amerikanischen Produkthaftungsrechts und Auswirkungen auf die Monsanto-Uebernahme. Das US-Produkthaftungsrecht unterscheidet sich grundlegend vom deutschen Recht: (1) STRICT LIABILITY: In den meisten US-Bundesstaaten haftet der Hersteller verschuldensunabhaengig fuer Produktfehler. Dies bedeutet, dass Monsanto auch dann haften kann, wenn es die Sorgfalt eines ordentlichen Herstellers beachtet hat. (2) PUNITIVE DAMAGES: US-Gerichte koennen Strafschadenersatz in Hoehe des Vielfachen des eigentlichen Schadens zusprechen. In Produkthaftungsfaellen koennen Punitive Damages die kompensatorischen Schaeden um das 10- bis 100-Fache uebersteigen. (3) CLASS ACTIONS und MDL: Das US-System ermoeglicht Sammelklagen und die Buendelung tausender Einzelklagen in einem Verfahren (Multidistrict Litigation). (4) CONTINGENCY FEES: Klaegeranwaelte arbeiten auf Erfolgsbasis, was die Klagebereitschaft erheblich senkt. BEWERTUNG: Das US-Produkthaftungssystem ist fuer europaeische Unternehmen besonders risikoreich. Die Kombination aus Strict Liability, Punitive Damages und dem MDL-System kann zu exponentiellen Haftungseskalationen fuehren.",
+  "summary": "Memo erklaert US-Produkthaftung: Strict Liability, Punitive Damages, MDL-System. Warnt vor exponentieller Eskalation.",
+  "language": "de",
+  "doc_type": "legal_memo",
+  "jurisdiction": "DE",
+  "date": "2016-07-20",
+  "parties": [
+    "Bayer AG"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [],
+  "risk_factors": [
+    "US Strict Liability",
+    "Punitive Damages Risiko",
+    "MDL-Eskalation"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-MEM-002",
+    "LEX-DD-001"
+  ],
+  "confidentiality": "privileged",
+  "tags": [
+    "rechtsanalyse",
+    "produkthaftung",
+    "us_recht",
+    "punitive_damages"
+  ]
+}

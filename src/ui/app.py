@@ -6,6 +6,14 @@ Usage:
     streamlit run src/ui/app.py
 """
 
+import sys
+from pathlib import Path
+
+# Ensure project root is on sys.path for imports
+_root = str(Path(__file__).parent.parent.parent)
+if _root not in sys.path:
+    sys.path.insert(0, _root)
+
 import streamlit as st
 import pandas as pd
 

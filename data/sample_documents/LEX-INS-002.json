@@ -1,0 +1,43 @@
+{
+  "id": "LEX-INS-002",
+  "title": "Monsanto Excess Liability Coverage - Tower Structure Summary",
+  "content": "EXCESS LIABILITY INSURANCE TOWER SUMMARY. This document summarizes the layered excess liability insurance program maintained by Monsanto Company for the 2017 policy year. Layer 1 (Primary): Global Re Insurance Group, $250M aggregate, subject to $25M SIR. Layer 2: Atlantic Specialty Insurance, $250M xs $250M. Layer 3: Pacific Mutual Re, $250M xs $500M. TOTAL TOWER: $750,000,000 in aggregate coverage. CRITICAL NOTE: All layers contain known-or-expected-liability exclusions and follow-form to the primary policy exclusions. Given that Roundup/glyphosate litigation was well-established prior to the 2017 policy inception, coverage counsel advises that recovery under these policies for Roundup-related claims is unlikely. The $750M total tower is materially insufficient relative to projected Roundup liability exposure of $3-8 billion. The insurance program was designed before the scale of Roundup litigation became apparent. Monsanto's risk management team recommends exploring retroactive liability coverage options and captive insurance alternatives for the 2018 policy renewal.",
+  "summary": "Total insurance tower: $750M. Likely no coverage for Roundup claims. Projected exposure: $3-8B. Massive gap.",
+  "language": "en",
+  "doc_type": "insurance_policy",
+  "jurisdiction": "US",
+  "date": "2017-01-15",
+  "parties": [
+    "Monsanto Company"
+  ],
+  "products": [
+    "Roundup"
+  ],
+  "chemicals": [
+    "Glyphosate"
+  ],
+  "risk_factors": [
+    "Insurance Tower Inadequacy",
+    "Coverage Gap",
+    "Uninsured Liability"
+  ],
+  "monetary_value": 750000000,
+  "regulatory_bodies": [],
+  "contract_clauses": [
+    {
+      "clause_type": "follow_form_exclusion",
+      "summary": "All excess layers follow primary exclusions",
+      "language": "en"
+    }
+  ],
+  "related_docs": [
+    "LEX-INS-001",
+    "LEX-RISK-002"
+  ],
+  "confidentiality": "confidential",
+  "tags": [
+    "insurance_tower",
+    "coverage_gap",
+    "excess_liability"
+  ]
+}

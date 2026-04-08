@@ -1,0 +1,35 @@
+{
+  "id": "LEX-CRB-004",
+  "title": "CFIUS National Security Review - Agricultural Technology Assessment",
+  "content": "COMMITTEE ON FOREIGN INVESTMENT IN THE UNITED STATES (CFIUS) - Review of Bayer AG Acquisition of Monsanto Company. CFIUS has completed its review of the proposed acquisition and has determined that the transaction does not pose an unresolved national security risk. KEY CONSIDERATIONS: (1) Monsanto's agricultural biotechnology and digital farming platforms were evaluated for national security implications. (2) CFIUS required certain mitigation measures including data protection protocols for US agricultural data collected through Monsanto's Climate Corporation subsidiary. (3) The Committee required that Monsanto's seed trait genetic data remain accessible to US researchers and that critical agricultural technology not be transferred to restricted entities. (4) CFIUS did not evaluate product liability risks, environmental claims, or pending litigation as these fall outside the Committee's jurisdiction. The approval allows the transaction to proceed subject to compliance with the mitigation agreement.",
+  "summary": "CFIUS clears acquisition with data protection conditions. No review of product liability or litigation exposure.",
+  "language": "en",
+  "doc_type": "cross_border_regulatory",
+  "jurisdiction": "US",
+  "date": "2018-04-10",
+  "parties": [
+    "Bayer AG",
+    "Monsanto Company",
+    "CFIUS"
+  ],
+  "products": [],
+  "chemicals": [],
+  "risk_factors": [
+    "Data Security Requirements",
+    "No Liability Review"
+  ],
+  "monetary_value": 0,
+  "regulatory_bodies": [
+    "CFIUS"
+  ],
+  "contract_clauses": [],
+  "related_docs": [
+    "LEX-CRB-003"
+  ],
+  "confidentiality": "public",
+  "tags": [
+    "cfius",
+    "national_security",
+    "agricultural_technology"
+  ]
+}
