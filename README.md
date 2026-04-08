@@ -6,6 +6,28 @@ A fully local, multi-agentic system for cross-lingual M&A due diligence analysis
 
 **Type "Zeige mir alle Dokumente ueber Produkthaftungsrisiken" (German) and find English Monsanto lawsuit filings, EPA correspondence, AND German Bayer risk memos -- with zero translation.**
 
+## Screenshots
+
+### LLM-Powered Cross-Lingual Analysis
+Gemma 4 E2B analyzes retrieved documents across languages and synthesizes findings in the query language -- all running locally on Metal GPU via llama-server.
+
+![LLM Analysis](docs/images/llm_analysis.png)
+
+### Cross-Lingual Document Retrieval
+A German query ("Produkthaftungsrisiken") retrieves both German Bayer internal documents AND English Monsanto lawsuit filings, insurance policies, and SEC disclosures -- ranked by semantic similarity with zero translation.
+
+![Cross-Lingual Results](docs/images/cross_lingual_results.png)
+
+### Entity Relationship Graph
+Knowledge graph showing Monsanto -> Roundup -> Glyphosate -> Lawsuits -> Courts, with color-coded nodes for Companies (blue), Products (green), Legal Claims (red), Regulatory Bodies (orange), and Chemicals (purple).
+
+![Entity Graph](docs/images/entity_graph.png)
+
+### Risk Dashboard
+48 documents, 235 graph nodes, 264 relationships across 2 languages. Documents by language and type, risk factors ranked by frequency.
+
+![Risk Dashboard](docs/images/risk_dashboard.png)
+
 ## The Bayer-Monsanto Story: Why This Demo Exists
 
 In 2018, Bayer AG (Germany) acquired Monsanto (USA) for $63 billion. Bayer's German-speaking legal team catastrophically underestimated Monsanto's US litigation exposure from Roundup (glyphosate) product liability lawsuits:
