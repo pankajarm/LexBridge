@@ -1,6 +1,7 @@
 """Ingestion agent: processes legal documents into vector + graph stores."""
 
 import json
+import re
 from pathlib import Path
 
 from src.config import DATA_DIR
@@ -8,6 +9,70 @@ from src.config import DATA_DIR
 
 SAMPLE_DOCS_DIR = DATA_DIR / "sample_documents"
 ENTITY_ALIASES_FILE = SAMPLE_DOCS_DIR / "_entity_aliases.json"
+
+# Regex for dollar amounts: $289M, $10.9 billion, $63,000,000,000 etc.
+_MONEY_RE = re.compile(
+    r"\$[\d,]+(?:\.\d+)?\s*(?:million|billion|trillion|[MBT])?"
+    r"|(?:\d[\d,]*(?:\.\d+)?)\s*(?:million|billion|trillion)\s*(?:dollars?|USD|EUR)",
+    re.IGNORECASE,
+)
+
+
+def _extract_monetary_evidence(content: str, monetary_value: float) -> str:
+    """Find sentence(s) in content that contain monetary amounts.
+
+    Returns the most relevant 1-3 sentences as evidence for the monetary_value.
+    """
+    if not content or not monetary_value:
+        return ""
+
+    # Split into sentences (rough but good enough for legal text)
+    sentences = re.split(r"(?<=[.!?])\s+", content)
+
+    # Find sentences with dollar amounts
+    evidence = []
+    for sent in sentences:
+        if _MONEY_RE.search(sent) and len(sent) > 30:
+            evidence.append(sent.strip())
+        if len(evidence) >= 3:
+            break
+
+    return " ... ".join(evidence) if evidence else ""
+
+
+def _extract_key_excerpt(content: str, max_chars: int = 800) -> str:
+    """Extract the most informative opening excerpt from document content.
+
+    Skips boilerplate headers and grabs the first substantive paragraph(s).
+    """
+    if not content:
+        return ""
+
+    # Skip very short lines at the start (headers, metadata)
+    lines = content.split("\n")
+    substantive = []
+    char_count = 0
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            continue
+        # Skip very short lines that look like headers
+        if len(stripped) < 20 and not any(c in stripped for c in ".$%"):
+            continue
+        substantive.append(stripped)
+        char_count += len(stripped)
+        if char_count >= max_chars:
+            break
+
+    excerpt = " ".join(substantive)
+    if len(excerpt) > max_chars:
+        # Truncate at sentence boundary
+        excerpt = excerpt[:max_chars]
+        last_period = excerpt.rfind(".")
+        if last_period > max_chars * 0.6:
+            excerpt = excerpt[: last_period + 1]
+
+    return excerpt
 
 
 def _load_documents() -> list[dict]:
@@ -219,18 +284,23 @@ def ingest_documents(embedder, vector_store, graph_store):
     _build_static_graph(graph_store)
 
     # Batch embed all document contents with Harrier
+    # Truncate to ~2000 chars to fit within model context and GPU memory
     print(f"[Ingestion] Embedding {len(docs)} documents...")
-    contents = [doc.get("content", doc.get("summary", "")) for doc in docs]
+    contents = [doc.get("content", doc.get("summary", ""))[:2000] for doc in docs]
     embeddings = embedder.embed_documents(contents)
 
     # Upsert to Qdrant with metadata
     print("[Ingestion] Upserting to vector store...")
     batch_items = []
     for doc, embedding in zip(docs, embeddings):
+        full_content = doc.get("content", "")
+        monetary_val = doc.get("monetary_value", 0)
         metadata = {
             "title": doc.get("title", ""),
-            "content": doc.get("content", "")[:500],
+            "content": full_content[:500],
             "summary": doc.get("summary", ""),
+            "key_excerpt": _extract_key_excerpt(full_content),
+            "monetary_evidence": _extract_monetary_evidence(full_content, monetary_val),
             "language": doc.get("language", ""),
             "doc_type": doc.get("doc_type", ""),
             "jurisdiction": doc.get("jurisdiction", ""),
@@ -241,7 +311,8 @@ def ingest_documents(embedder, vector_store, graph_store):
                 rf.get("name", rf) if isinstance(rf, dict) else rf
                 for rf in doc.get("risk_factors", [])
             ],
-            "monetary_value": doc.get("monetary_value", 0),
+            "monetary_value": monetary_val,
+            "source_url": doc.get("source_url", ""),
         }
         batch_items.append({"id": doc["id"], "vector": embedding, "metadata": metadata})
 

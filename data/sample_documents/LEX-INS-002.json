@@ -39,5 +39,6 @@
     "insurance_tower",
     "coverage_gap",
     "excess_liability"
-  ]
+  ],
+  "source_url": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-INS-002.md"
 }

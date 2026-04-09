@@ -134,10 +134,17 @@ with tab1:
                 risk_factors = doc.get("risk_factors", [])
                 monetary = doc.get("monetary_value", 0)
 
+                source_url = doc.get("source_url", "")
+                monetary_evidence = doc.get("monetary_evidence", "")
+                key_excerpt = doc.get("key_excerpt", "")
+
                 with st.container(border=True):
-                    col1, col2 = st.columns([4, 1])
+                    col1, col2 = st.columns([3, 1])
                     with col1:
-                        st.markdown(f"### {flag} {title}")
+                        if source_url:
+                            st.markdown(f"### {flag} [{title}]({source_url})")
+                        else:
+                            st.markdown(f"### {flag} {title}")
                         st.caption(f"Similarity: {score:.3f} | {doc_type} | {jurisdiction}")
                         st.write(summary)
                         if risk_factors:
@@ -146,9 +153,22 @@ with tab1:
                                 for rf in risk_factors
                             )
                             st.markdown(f"Risk factors: {rf_tags}")
+                        if source_url:
+                            st.markdown(f"[:link: Source Document]({source_url})")
+                        if key_excerpt:
+                            with st.expander("Key Excerpt from Document"):
+                                st.markdown(f"*{key_excerpt}*")
                     with col2:
                         if monetary and monetary > 0:
                             st.metric("Monetary Value", f"${monetary:,.0f}")
+                            if monetary_evidence:
+                                st.caption("Evidence:")
+                                st.markdown(
+                                    f"<div style='font-size:0.78em; color:#aaa; "
+                                    f"border-left:2px solid #555; padding-left:8px;'>"
+                                    f"{monetary_evidence}</div>",
+                                    unsafe_allow_html=True,
+                                )
 
         # Risk report rendering
         risk_report = result.get("risk_report", {})

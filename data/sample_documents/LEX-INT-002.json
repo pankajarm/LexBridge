@@ -28,5 +28,6 @@
     "it_integration",
     "compliance",
     "e_discovery"
-  ]
+  ],
+  "source_url": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-INT-002.md"
 }

@@ -25,6 +25,11 @@ dependencies = [
     "python-dotenv>=1.0",
     "huggingface-hub>=0.25",
     "streamlit-agraph>=0.0.45",
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "pypdf>=4.0",
+    "cryptography>=46.0.7",
 ]
 
 [tool.uv]

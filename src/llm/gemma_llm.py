@@ -25,28 +25,54 @@ class GemmaLLM:
         self.base_url = base_url or LLM_API_BASE
         self.model = model or LLM_MODEL_NAME
         self.client = None
+        self._try_connect()
 
-        if HAS_OPENAI:
-            try:
-                self.client = OpenAI(base_url=self.base_url, api_key="not-needed")
-                self.client.models.list()
-                print(f"Connected to LLM server at {self.base_url}")
-            except Exception as e:
-                print(f"[MockLLM] Could not connect to LLM server at {self.base_url}: {e}")
-                print("[MockLLM] Start the server with: llama-server -hf ggml-org/gemma-4-E2B-it-GGUF:Q4_K_M")
-                self.client = None
-        else:
+    def _try_connect(self) -> bool:
+        """Try to connect to the LLM server. Returns True if successful."""
+        if not HAS_OPENAI:
             print("[MockLLM] openai package not installed. Using mock.")
+            return False
+        try:
+            client = OpenAI(base_url=self.base_url, api_key="not-needed")
+            client.models.list()
+            self.client = client
+            print(f"Connected to LLM server at {self.base_url}")
+            return True
+        except Exception as e:
+            print(f"[MockLLM] Could not connect to LLM server at {self.base_url}: {e}")
+            print("[MockLLM] Start the server with: llama-server -hf ggml-org/gemma-4-E2B-it-GGUF:Q4_K_M")
+            self.client = None
+            return False
+
+    def _ensure_client(self) -> bool:
+        """Ensure we have an active client, reconnecting if needed."""
+        if self.client is not None:
+            return True
+        return self._try_connect()
+
+    @staticmethod
+    def _extract_content(message) -> str:
+        """Extract content from a response message, handling thinking models.
+
+        Gemma 4 is a thinking model that may put output in reasoning_content.
+        If content is empty, fall back to reasoning_content.
+        """
+        content = message.content or ""
+        if not content.strip():
+            reasoning = getattr(message, "reasoning_content", None) or ""
+            if reasoning:
+                content = reasoning
+        return content
 
     def generate(
         self,
         prompt: str,
         system_prompt: str = "You are a senior M&A due diligence analyst.",
-        max_tokens: int = 1024,
+        max_tokens: int = 2048,
         temperature: float | None = None,
     ) -> str:
         """Generate a response from the model."""
-        if self.client is None:
+        if not self._ensure_client():
             return self._mock_generate(prompt, system_prompt)
 
         try:
@@ -59,7 +85,7 @@ class GemmaLLM:
                 max_tokens=max_tokens,
                 temperature=temperature if temperature is not None else LLM_TEMPERATURE,
             )
-            return response.choices[0].message.content
+            return self._extract_content(response.choices[0].message)
         except Exception:
             return self._mock_generate(prompt, system_prompt)
 
@@ -68,10 +94,10 @@ class GemmaLLM:
         prompt: str,
         tools: list[dict],
         system_prompt: str = "You are a senior M&A due diligence analyst.",
-        max_tokens: int = 1024,
+        max_tokens: int = 2048,
     ) -> dict:
         """Generate a response with tool/function calling support."""
-        if self.client is None:
+        if not self._ensure_client():
             return {"content": self._mock_generate(prompt, system_prompt)}
 
         try:
@@ -86,13 +112,13 @@ class GemmaLLM:
                 temperature=LLM_TEMPERATURE,
             )
             msg = response.choices[0].message
-            return {"content": msg.content, "tool_calls": getattr(msg, "tool_calls", None)}
+            return {"content": self._extract_content(msg), "tool_calls": getattr(msg, "tool_calls", None)}
         except Exception:
             return {"content": self._mock_generate(prompt, system_prompt)}
 
     def classify_intent(self, query: str) -> str:
         """Classify a user query into a legal due diligence query type."""
-        if self.client is None:
+        if not self._ensure_client():
             return self._mock_classify(query)
 
         system = """Classify the user's legal due diligence query into exactly one category.
@@ -113,7 +139,7 @@ Categories:
 
     def extract_entities(self, text: str, language: str = "en") -> dict:
         """Extract legal entities from M&A due diligence text."""
-        if self.client is None:
+        if not self._ensure_client():
             return {"companies": [], "products": [], "risk_factors": [],
                     "regulatory_bodies": [], "monetary_values": []}
 
@@ -142,7 +168,7 @@ Return ONLY valid JSON, no explanation."""
 
     def generate_cypher(self, question: str, schema: str) -> str:
         """Generate a Cypher query from natural language."""
-        if self.client is None:
+        if not self._ensure_client():
             return self._mock_cypher(question)
 
         system = f"""You are a graph database expert. Generate a Cypher query for FalkorDB

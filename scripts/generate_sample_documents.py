@@ -1744,6 +1744,80 @@ BILINGUAL_DOCS = [
 ]
 
 # ─────────────────────────────────────────────────────────────────────────────
+# SOURCE URLS — map each document to its real-world public reference
+# ─────────────────────────────────────────────────────────────────────────────
+
+SOURCE_URLS = {
+    # --- Litigation filings (verified court documents) ---
+    "LEX-LIT-001": "https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.",
+    "LEX-LIT-002": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-LIT-002.md",
+    "LEX-LIT-003": "https://cdn.ca9.uscourts.gov/datastore/opinions/2021/05/14/19-16636.pdf",
+    "LEX-LIT-004": "https://www.courtlistener.com/docket/4579168/in-re-roundup-products-liability-litigation/",
+    "LEX-LIT-005": "https://www.reuters.com/legal/litigation/bayer-basf-must-pay-250-mln-peach-farmer-dicamba-case-us-jury-2024-02-09/",
+    # --- Scientific studies (verified publications) ---
+    "LEX-SCI-001": "https://publications.iarc.who.int/549",
+    "LEX-SCI-002": "https://www.epa.gov/sites/default/files/2020-01/documents/glyphosate-interim-reg-review-decision-case-num-0178.pdf",
+    "LEX-SCI-003": "https://pubmed.ncbi.nlm.nih.gov/31342895/",
+    "LEX-SCI-004": "https://pubmed.ncbi.nlm.nih.gov/10854122/",
+    # --- Regulatory correspondence (verified agency documents) ---
+    "LEX-REG-001": "https://www.epa.gov/ingredients-used-pesticide-products/glyphosate",
+    "LEX-REG-002": "https://www.iarc.who.int/wp-content/uploads/2018/07/MonographVolume112-1.pdf",
+    "LEX-REG-003": "https://www.epa.gov/pesticides/epa-withdraws-glyphosate-interim-decision",
+    # --- SEC filings (verified EDGAR — Monsanto CIK 1110783) ---
+    "LEX-SEC-001": "https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm",
+    "LEX-SEC-002": "https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658d8k.htm",
+    # --- Merger agreement (verified SEC filings) ---
+    "LEX-MRG-001": "https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658dex21.htm",
+    "LEX-MRG-002": "https://www.sec.gov/Archives/edgar/data/1110783/000119312516765991/d252304ddefm14a.htm",
+    "LEX-MRG-003": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-MRG-003.md",
+    "LEX-MRG-004": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-MRG-004.md",
+    # --- Competition / regulatory clearance (verified agency decisions) ---
+    "LEX-CRB-001": "https://ec.europa.eu/commission/presscorner/detail/en/ip_18_2282",
+    "LEX-CRB-002": "https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2018/15_03_2018_Bayer_Monsanto.html",
+    "LEX-CRB-003": "https://www.justice.gov/archives/opa/pr/justice-department-secures-largest-merger-divestiture-ever-preserve-competition-threatened",
+    "LEX-CRB-004": "https://www.justice.gov/atr/case/us-v-bayer-ag-and-monsanto-company",
+    # --- Internal risk assessments (synthetic — modeled after Monsanto 10-K disclosures) ---
+    "LEX-RISK-001": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-RISK-001.md",
+    "LEX-RISK-002": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-RISK-002.md",
+    # --- Insurance policies (synthetic) ---
+    "LEX-INS-001": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-INS-001.md",
+    "LEX-INS-002": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-INS-002.md",
+    # --- Contracts (synthetic) ---
+    "LEX-CON-001": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-CON-001.md",
+    "LEX-CON-002": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-CON-002.md",
+    # --- Settlements (verified news/press releases) ---
+    "LEX-SET-001": "https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.",
+    "LEX-SET-002": "https://www.bayer.com/media/en-us/bayer-announces-agreements-to-resolve-major-legacy-monsanto-litigation/",
+    # --- Bayer board minutes (synthetic) ---
+    "LEX-BD-001": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-BD-001.md",
+    "LEX-BD-002": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-BD-002.md",
+    "LEX-BD-003": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-BD-003.md",
+    # --- Due diligence (synthetic) ---
+    "LEX-DD-001": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-DD-001.md",
+    "LEX-DD-002": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-DD-002.md",
+    "LEX-DD-003": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-DD-003.md",
+    # --- Legal memos (synthetic) ---
+    "LEX-MEM-001": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-MEM-001.md",
+    "LEX-MEM-002": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-MEM-002.md",
+    "LEX-MEM-003": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-MEM-003.md",
+    # --- Integration plans (synthetic) ---
+    "LEX-INT-001": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-INT-001.md",
+    "LEX-INT-002": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-INT-002.md",
+    # --- BaFin filings ---
+    "LEX-BAF-001": "https://en.wikipedia.org/wiki/Bayer",
+    "LEX-BAF-002": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-BAF-002.md",
+    # --- Shareholder communications (from Bayer annual reports) ---
+    "LEX-SH-001": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2017.pdf",
+    "LEX-SH-002": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf",
+    # --- German contract templates (synthetic) ---
+    "LEX-CON-DE-001": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-CON-DE-001.md",
+    "LEX-CON-DE-002": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-CON-DE-002.md",
+    # --- German risk assessment (synthetic) ---
+    "LEX-RISK-DE-001": "https://github.com/pankajarm/LexBridge/blob/main/docs/synthetic_documents/LEX-RISK-DE-001.md",
+}
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # ENTITY ALIASES (cross-lingual resolution)
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -1766,15 +1840,44 @@ ENTITY_ALIASES = {
 }
 
 
+SCRAPED_CACHE_DIR = DATA_DIR / "scraped_cache"
+
+
+def _load_scraped_cache() -> dict[str, str]:
+    """Load scraped content from cache directory. Returns {doc_id: content_text}."""
+    cache = {}
+    if not SCRAPED_CACHE_DIR.exists():
+        return cache
+    for fpath in sorted(SCRAPED_CACHE_DIR.glob("LEX-*.json")):
+        try:
+            with open(fpath, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            text = data.get("raw_text", "").strip()
+            if text and len(text) > 100:
+                cache[data["doc_id"]] = text
+        except Exception as e:
+            print(f"  Warning: could not load cache {fpath.name}: {e}")
+    return cache
+
+
 def main():
-    """Generate sample documents and write to disk."""
+    """Generate documents: overlay scraped real content where available."""
     import os
     os.makedirs(DOCS_DIR, exist_ok=True)
 
     all_docs = ENGLISH_DOCS + GERMAN_DOCS + BILINGUAL_DOCS
-    print(f"Generating {len(all_docs)} sample M&A due diligence documents...")
+    scraped = _load_scraped_cache()
 
+    print(f"Generating {len(all_docs)} M&A due diligence documents...")
+    print(f"  Scraped cache: {len(scraped)} documents with real content")
+
+    overlay_count = 0
     for doc in all_docs:
+        doc["source_url"] = SOURCE_URLS.get(doc["id"], "")
+        if doc["id"] in scraped:
+            doc["content"] = scraped[doc["id"]]
+            overlay_count += 1
+
         filepath = DOCS_DIR / f"{doc['id']}.json"
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(doc, f, indent=2, ensure_ascii=False)
@@ -1787,7 +1890,8 @@ def main():
     print(f"  English documents: {len(ENGLISH_DOCS)}")
     print(f"  German documents: {len(GERMAN_DOCS)}")
     print(f"  Bilingual documents: {len(BILINGUAL_DOCS)}")
-    print(f"  Total: {len(all_docs)} documents")
+    print(f"  Real content overlaid: {overlay_count} documents")
+    print(f"  Synthetic content kept: {len(all_docs) - overlay_count} documents")
     print(f"  Entity aliases: {len(ENTITY_ALIASES)} entries")
     print(f"  Output: {DOCS_DIR}")
 
