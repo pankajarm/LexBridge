@@ -87,7 +87,7 @@ EPA and IARC reached opposite conclusions — EPA found "not likely carcinogenic
 
 > *"EMPFEHLUNG: Das Produkthaftungsrisiko ist als beherrschbar einzustufen und rechtfertigt keinen Abbruch der Uebernahmeverhandlungen."*
 
-**What IS verifiable:** The merger agreement set a $3B MAE threshold, implying DD estimated below that. **Actual outcome: $10.9B.**
+**What IS verifiable:** The merger agreement's MAE definition used standard carve-outs but did not specifically mention Roundup or glyphosate litigation. **Actual outcome: $10.9B settlement.**
 
 ---
 
@@ -99,7 +99,7 @@ EPA and IARC reached opposite conclusions — EPA found "not likely carcinogenic
 
 > *"The Merger Agreement provides, among other things and subject to the terms and conditions set forth therein, that Merger Sub will be merged with and into the Company (the 'Merger')."*
 
-Verifiable from the Exhibit 2.1: MAE clause excludes litigation unless expected to exceed **$3B**. Indemnification capped at **$2B** with $250M basket.
+Verifiable from Exhibit 2.1: The MAE definition uses standard carve-outs (economy, markets, industry changes, weather, accounting). The words "Roundup" and "glyphosate" do **not appear** in the 301,000-word merger agreement. Pending product liability litigation was not specifically addressed in the MAE definition.
 
 ---
 
@@ -237,7 +237,7 @@ Claim count: 2,000 at signing → 8,000 at closing → **11,200** by Nov 2018.
 
 | What | Amount | Source |
 |------|--------|--------|
-| MAE threshold | $3B | [Merger Agreement Exhibit 2.1](https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658dex21.htm) |
+| MAE definition | Standard carve-outs; no specific Roundup litigation threshold | [Merger Agreement Exhibit 2.1](https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658dex21.htm) |
 | Indemnification cap | $2B | Same filing |
 | Monsanto litigation reserve | **$0** ("without merit") | [Monsanto 10-K](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm) |
 | Bayer's first provision (Q3 2018) | EUR 660M | Bayer 2018 Annual Report |
@@ -247,7 +247,7 @@ Claim count: 2,000 at signing → 8,000 at closing → **11,200** by Nov 2018.
 
 | Gap | Verifiable? |
 |-----|-------------|
-| MAE clause set at $3B — exceeded within 2 years | **Real** — Merger Agreement |
+| MAE definition did not specifically address Roundup litigation | **Real** — "Roundup" and "glyphosate" do not appear in the merger agreement |
 | Indemnification capped at $2B — against $10.9B actual | **Real** — Merger Agreement |
 | No litigation reserve despite 3,500 claims | **Real** — Monsanto 10-K |
 | IARC vs EPA scientific disagreement | **Real** — IARC Monograph 112 vs EPA assessment |
@@ -258,6 +258,6 @@ Claim count: 2,000 at signing → 8,000 at closing → **11,200** by Nov 2018.
 
 ## The LexBridge Thesis
 
-All of the warning signs existed in publicly available documents **before the merger closed on June 7, 2018**. A cross-lingual AI due diligence system like LexBridge could have connected the dots that human reviewers missed — surfacing the IARC classification, tracking accelerating claims from MDL filings, flagging the $3B MAE threshold as inadequate, and bridging the language barrier between German decision-makers and English-language litigation documents.
+All of the warning signs existed in publicly available documents **before the merger closed on June 7, 2018**. A cross-lingual AI due diligence system like LexBridge could have connected the dots that human reviewers missed — surfacing the IARC classification, tracking accelerating claims from MDL filings, flagging the MAE clause as inadequate, and bridging the language barrier between German decision-makers and English-language litigation documents.
 
 The $10.9 billion settlement was not unforeseeable. The evidence was there. It just wasn't connected.
