@@ -20,8 +20,8 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [Monsanto 10-K Annual Report FY2017 — Material Contracts](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
-- [Agreement and Plan of Merger — Exhibit 2.1 (SEC EDGAR)](https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658dex21.htm)
+- [Monsanto 10-K FY2017](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
+- [Merger Agreement Exhibit 2.1](https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658dex21.htm)
 
 ---
 

@@ -55,9 +55,11 @@
 
 ### Sep 2016 — EPA Glyphosate Cancer Assessment
 
-**Source:** [LEX-SCI-002](https://www.epa.gov/sites/default/files/2020-01/documents/glyphosate-interim-reg-review-decision-case-num-0178.pdf) (Real — EPA Decision PDF)
+**Source:** [LEX-SCI-002](https://www.epa.gov/sites/default/files/2020-01/documents/glyphosate-interim-reg-review-decision-case-num-0178.pdf) (Real — EPA Interim Registration Review Decision PDF)
 
-EPA and IARC reached opposite conclusions — EPA found "not likely carcinogenic," IARC found "probably carcinogenic" — creating the scientific disagreement that fueled litigation.
+EPA conducted its own assessment of glyphosate carcinogenicity. The EPA and IARC reached different conclusions — a divergence that became central to the litigation. Our PDF extract covers the EPA's interim registration review decision.
+
+Note: The specific phrase "not likely to be carcinogenic to humans" was not found in our 20-page extract of this 163-page document. The EPA's conclusion is stated elsewhere in the full document.
 
 ---
 
@@ -105,13 +107,17 @@ Verifiable from Exhibit 2.1: The MAE definition uses standard carve-outs (econom
 
 ## Phase 3: Pre-Close Warning Signs Intensify (2017-2018)
 
-### Oct 2017 — Monsanto 10-K: 3,500 Claims, No Reserve
+### Oct 2017 — Monsanto 10-K: ~3,100 Plaintiffs, "Meritorious Defenses"
 
 **Source:** [LEX-SEC-001](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm) (Real — SEC EDGAR)
 
-> *"Risk Factors below sets forth some of the important reasons that actual results may be materially different from those that we anticipate."*
+> *"The company is defending lawsuits in various state and federal courts, in which approximately 3,100 plaintiffs claim to have been injured by exposure to glyphosate-based products manufactured by the company."*
 
-The 10-K disclosed ~3,500 Roundup lawsuits but established **no litigation reserve**, stating claims were "without merit."
+> *"The company believes that it has meritorious factual and legal defenses to these cases and is vigorously defending them."*
+
+> *"Management does not anticipate the ultimate liabilities resulting from such proceedings... will have a material adverse effect on Monsanto's consolidated results of operations, financial position, cash flows or liquidity."*
+
+Note: "without merit" appears in the 10-K but refers to **PCB claims**, not Roundup. For Roundup, Monsanto claimed "meritorious defenses." No specific litigation reserve was established for Roundup claims.
 
 ---
 
@@ -155,21 +161,25 @@ The 10-K disclosed ~3,500 Roundup lawsuits but established **no litigation reser
 
 ---
 
-### Mar 2018 — EU Commission Conditional Approval
+### Mar 2018 — EU Commission Approves Merger, Subject to Conditions
 
 **Source:** [LEX-CRB-001](https://ec.europa.eu/commission/presscorner/detail/en/ip_18_2282) (Real — EU Commission Press Release PDF)
 
-> *"Bayer has proposed BASF as purchaser for the remedy package."*
+> *"We have approved Bayer's plans to take over Monsanto because the parties' remedies, worth well over EUR 6 billion, meet our competition concerns."*
 
-Required Bayer to divest $7.6B in assets to BASF to preserve competition.
+> *"Bayer has proposed BASF as purchaser for the remedy package."*
 
 ---
 
-### May 2018 — DOJ Secures Largest Merger Divestiture Ever
+### May 2018 — DOJ Antitrust Review
 
-**Source:** [LEX-CRB-003](https://www.justice.gov/atr/case/us-v-bayer-ag-and-monsanto-company) (Real — DOJ Case Page)
+**Source:** [LEX-CRB-003](https://en.wikipedia.org/wiki/Monsanto) (Real — Wikipedia, Monsanto article)
 
-$9B in asset divestitures required to preserve competition in seeds, traits, and herbicides markets.
+The DOJ Antitrust Division reviewed the Bayer-Monsanto merger. From the Wikipedia article on Monsanto:
+
+> *"On June 7, 2018, Bayer announced the acquisition of Monsanto for US$63 billion."*
+
+Note: The DOJ press release URL was inaccessible to our scraper (bot-blocked). The Wikipedia article on Monsanto covers the acquisition and regulatory approvals.
 
 ---
 
@@ -189,11 +199,15 @@ $9B in asset divestitures required to preserve competition in seeds, traits, and
 
 ## Phase 4: Post-Merger Reality (2018-2020)
 
-### Nov 2018 — Claims Reach 11,200
+### Nov 2018 — Bayer Acknowledges Glyphosate Litigation Risk
 
 **Source:** [LEX-SH-002](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf) (Real — Bayer 2018 Annual Report)
 
-Claim count: 2,000 at signing → 8,000 at closing → **11,200** by Nov 2018.
+> *"Positive safety profile of glyphosate unchanged — Bayer vigorously defending itself against lawsuits"*
+
+> *"...overshadowed by the uncertain outcome of the product liability litigation concerning glyphosate."*
+
+Note: The specific claim count of "11,200" is widely reported in news coverage of the 2018 annual report but was not found in the pages we extracted from the PDF.
 
 ---
 
@@ -207,11 +221,13 @@ Claim count: 2,000 at signing → 8,000 at closing → **11,200** by Nov 2018.
 
 ---
 
-### Jun 2020 — $10.9 Billion Global Settlement
+### Jun 2020 — $10.9 Billion Global Settlement (~125,000 Claims)
 
 **Source:** [LEX-SET-002](https://www.bayer.com/media/en-us/bayer-announces-agreements-to-resolve-major-legacy-monsanto-litigation/) (Real — Bayer Press Release)
 
 > *"Company will make a total payment of $10.1 billion to $10.9 billion (EUR 9.1 billion to EUR 9.8 billion) to resolve the current Roundup litigation."*
+
+> *"...closure to approximately 75% of the current Roundup litigation involving approximately 125,000 filed and unfiled claims overall."*
 
 > *"The resolved claims include all plaintiff law firms leading the Roundup federal multi-district litigation (MDL) or the California bellwether cases, and those representing approximately 95% of the cases currently set for trial."*
 
@@ -227,11 +243,11 @@ Claim count: 2,000 at signing → 8,000 at closing → **11,200** by Nov 2018.
 
 | When | Claims | Source |
 |------|--------|--------|
-| Merger signing (Sep 2016) | ~2,000 | [Monsanto 8-K](https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658d8k.htm) |
-| Monsanto 10-K (Oct 2017) | ~3,500 | [SEC EDGAR](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm) |
-| Merger close (Jun 2018) | ~8,000 | [Bayer 2018 Annual Report](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf) |
-| Post-close (Nov 2018) | ~11,200 | Bayer 2018 Annual Report |
-| Settlement (Jun 2020) | **~100,000** | [Bayer press release](https://www.bayer.com/media/en-us/bayer-announces-agreements-to-resolve-major-legacy-monsanto-litigation/) |
+| Merger signing (Sep 2016) | ~2,000 | [Monsanto 8-K](https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658d8k.htm) — verified in scraped content |
+| Monsanto 10-K (Oct 2017) | **~3,100** | [Monsanto 10-K](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm) — exact quote: "approximately 3,100 plaintiffs" |
+| Merger close (Jun 2018) | ~8,000 | Widely reported in Bayer disclosures (not in our PDF extract) |
+| Post-close (Nov 2018) | ~11,200 | Widely reported (not in our Bayer AR PDF extract) |
+| Settlement (Jun 2020) | **~125,000** | [Bayer press release](https://www.bayer.com/media/en-us/bayer-announces-agreements-to-resolve-major-legacy-monsanto-litigation/) — exact quote: "approximately 125,000 filed and unfiled claims" |
 
 ### Liability (Verifiable Deal Terms vs Actual Outcome)
 
@@ -239,7 +255,7 @@ Claim count: 2,000 at signing → 8,000 at closing → **11,200** by Nov 2018.
 |------|--------|--------|
 | MAE definition | Standard carve-outs; no specific Roundup litigation threshold | [Merger Agreement Exhibit 2.1](https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658dex21.htm) |
 | Indemnification cap | $2B | Same filing |
-| Monsanto litigation reserve | **$0** ("without merit") | [Monsanto 10-K](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm) |
+| Monsanto litigation reserve for Roundup | **$0** (claimed "meritorious defenses") | [Monsanto 10-K](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm) — verified in scraped content |
 | Bayer's first provision (Q3 2018) | EUR 660M | Bayer 2018 Annual Report |
 | **Actual settlement** | **$10.9B** | [Bayer press release](https://www.bayer.com/media/en-us/bayer-announces-agreements-to-resolve-major-legacy-monsanto-litigation/) |
 
@@ -249,7 +265,7 @@ Claim count: 2,000 at signing → 8,000 at closing → **11,200** by Nov 2018.
 |-----|-------------|
 | MAE definition did not specifically address Roundup litigation | **Real** — "Roundup" and "glyphosate" do not appear in the merger agreement |
 | Indemnification capped at $2B — against $10.9B actual | **Real** — Merger Agreement |
-| No litigation reserve despite 3,500 claims | **Real** — Monsanto 10-K |
+| No litigation reserve despite ~3,100 plaintiffs | **Real** — verified in Monsanto 10-K scraped content |
 | IARC vs EPA scientific disagreement | **Real** — IARC Monograph 112 vs EPA assessment |
 | Cross-lingual DD gap (68% figure) | Illustrative — LEX-MRG-004 |
 | Insurance coverage adequacy | Illustrative — LEX-INS-001, LEX-INS-002 |

@@ -20,9 +20,9 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [Monsanto 10-K Annual Report FY2017 — Risk Factors (SEC EDGAR)](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
-- [In re Roundup Products Liability Litigation — MDL 2741 Docket](https://www.courtlistener.com/docket/4579168/in-re-roundup-products-liability-litigation/)
-- [Monsanto Legal Cases — Dicamba, PCB, Agent Orange](https://en.wikipedia.org/wiki/Monsanto_legal_cases)
+- [Monsanto 10-K FY2017 — Risk Factors](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
+- [MDL 2741 Docket](https://www.courtlistener.com/docket/4579168/in-re-roundup-products-liability-litigation/)
+- [Monsanto Legal Cases](https://en.wikipedia.org/wiki/Monsanto_legal_cases)
 
 ---
 

@@ -20,9 +20,9 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [Monsanto 10-K Annual Report FY2017 — Risk Factors (SEC EDGAR)](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
-- [IARC Monograph 112 — Glyphosate Classification](https://publications.iarc.who.int/549)
-- [Johnson v. Monsanto Co. — First Roundup Trial](https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.)
+- [Monsanto 10-K FY2017 — Risk Factors](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
+- [IARC Monograph 112](https://publications.iarc.who.int/549)
+- [Johnson v. Monsanto](https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.)
 
 ---
 

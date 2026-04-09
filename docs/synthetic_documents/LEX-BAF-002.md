@@ -20,8 +20,8 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [Bayer AG Annual Report 2018 — Financial Statements](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
-- [EU Commission Bayer/Monsanto Conditional Clearance](https://ec.europa.eu/commission/presscorner/detail/en/ip_18_2282)
+- [Bayer 2018 Annual Report](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
+- [EU Commission Merger Approval](https://ec.europa.eu/commission/presscorner/detail/en/ip_18_2282)
 
 ---
 

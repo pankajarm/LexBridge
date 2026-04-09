@@ -20,8 +20,8 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [Bayer AG Annual Report 2017 — Acquisition Overview](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2017.pdf)
-- [Monsanto 10-K FY2017 — Litigation Risk Factors](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
+- [Bayer 2017 Annual Report](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2017.pdf)
+- [Monsanto 10-K FY2017](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
 - [IARC Monograph 112](https://publications.iarc.who.int/549)
 
 ---

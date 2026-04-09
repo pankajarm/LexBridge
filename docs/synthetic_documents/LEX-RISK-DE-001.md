@@ -20,9 +20,9 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [Bayer AG Annual Report 2018](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
-- [Johnson v. Monsanto Co.](https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.)
-- [Bayer $10.9B Settlement Press Release](https://www.bayer.com/media/en-us/bayer-announces-agreements-to-resolve-major-legacy-monsanto-litigation/)
+- [Bayer 2018 Annual Report](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
+- [Johnson v. Monsanto](https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.)
+- [Bayer $10.9B Settlement](https://www.bayer.com/media/en-us/bayer-announces-agreements-to-resolve-major-legacy-monsanto-litigation/)
 
 ---
 

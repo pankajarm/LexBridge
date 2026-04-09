@@ -20,9 +20,8 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [Bayer AG Annual Report 2017](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2017.pdf)
-- [EPA Glyphosate Registration Review](https://www.epa.gov/ingredients-used-pesticide-products/glyphosate)
-- [EU Commission Bayer/Monsanto Merger Approval](https://ec.europa.eu/commission/presscorner/detail/en/ip_18_2282)
+- [Bayer 2017 Annual Report](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2017.pdf)
+- [EPA Glyphosate](https://www.epa.gov/ingredients-used-pesticide-products/glyphosate)
 
 ---
 

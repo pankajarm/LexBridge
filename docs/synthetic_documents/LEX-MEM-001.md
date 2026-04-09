@@ -20,8 +20,8 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [German Product Liability Act (ProdHaftG)](https://www.gesetze-im-internet.de/prodhaftg/)
-- [Monsanto 10-K FY2017 — Risk Factors](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
+- [German Product Liability Act](https://www.gesetze-im-internet.de/prodhaftg/)
+- [Monsanto 10-K FY2017](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
 
 ---
 

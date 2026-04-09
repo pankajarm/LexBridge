@@ -20,8 +20,8 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [German Product Liability Act (ProdHaftG)](https://www.gesetze-im-internet.de/prodhaftg/)
-- [Agreement and Plan of Merger — Exhibit 2.1](https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658dex21.htm)
+- [German Product Liability Act](https://www.gesetze-im-internet.de/prodhaftg/)
+- [Merger Agreement Exhibit 2.1](https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658dex21.htm)
 
 ---
 

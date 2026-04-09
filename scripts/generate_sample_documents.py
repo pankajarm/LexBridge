@@ -651,11 +651,10 @@ ENGLISH_DOCS = [
             "litigation and regulatory proceedings. Item 8.01 - Pending Litigation: Monsanto has "
             "disclosed to Bayer the existence of lawsuits alleging Roundup causes cancer. As of the "
             "date of this report, approximately 2,000 such cases are pending. The merger agreement "
-            "includes a Material Adverse Effect clause that excludes pending litigation from the "
-            "definition of an MAE unless it would reasonably be expected to result in liability "
-            "exceeding $3 billion."
+            "includes a Material Adverse Effect clause with standard carve-outs. Notably, the "
+            "words 'Roundup' and 'glyphosate' do not appear in the merger agreement."
         ),
-        "summary": "$63B merger announced. MAE clause excludes litigation unless expected to exceed $3B. ~2,000 Roundup cases disclosed.",
+        "summary": "$63B merger announced. MAE clause uses standard carve-outs. ~2,000 Roundup cases pending at signing.",
         "language": "en",
         "doc_type": "sec_filing",
         "jurisdiction": "US",
@@ -666,7 +665,7 @@ ENGLISH_DOCS = [
         "risk_factors": ["MAE Threshold", "Litigation Disclosure", "Merger Risk"],
         "monetary_value": 63000000000,
         "regulatory_bodies": ["SEC", "DOJ", "EU Commission"],
-        "contract_clauses": [{"clause_type": "material_adverse_effect", "summary": "MAE excludes litigation unless >$3B expected liability", "language": "en"}],
+        "contract_clauses": [{"clause_type": "material_adverse_effect", "summary": "MAE uses standard carve-outs; Roundup/glyphosate not mentioned by name", "language": "en"}],
         "related_docs": ["LEX-MRG-001", "LEX-CRB-001"],
         "confidentiality": "public",
         "tags": ["sec", "8k", "merger", "mae_clause"],
@@ -831,14 +830,14 @@ GERMAN_DOCS = [
             "(2) Das Produktportfolio umfasst Roundup (Glyphosat-basiert), gentechnisch veraendertes "
             "Saatgut und digitale Landwirtschaftsloesungen. (3) Rechtsrisiken: Es sind derzeit "
             "etwa 2.000 Klagen wegen angeblicher Krebsverursachung durch Roundup anhaengig. Die "
-            "Rechtsabteilung schaetzt das maximale Haftungsrisiko auf 2-3 Milliarden USD. "
+            "Rechtsabteilung stuft das Haftungsrisiko als beherrschbar ein. "
             "(4) Regulatorische Risiken: Die IARC-Klassifizierung von Glyphosat als wahrscheinlich "
             "krebserregend wird als beherrschbar eingestuft, da EPA und EFSA weiterhin die "
             "Unbedenklichkeit bestaetigen. BESCHLUSS: Der Vorstand genehmigt die Fortsetzung der "
             "Uebernahmeverhandlungen zum Angebotspreis von 128 USD je Aktie. Das Gesamtvolumen "
             "der Transaktion betraegt ca. 63 Milliarden USD einschliesslich Schuldenuebernahme."
         ),
-        "summary": "Vorstandssitzung genehmigt Monsanto-Uebernahme. Haftungsrisiko auf 2-3 Mrd USD geschaetzt. 2.000 Klagen bekannt.",
+        "summary": "Vorstandssitzung genehmigt Monsanto-Uebernahme. Haftungsrisiko als beherrschbar eingestuft. 2.000 Klagen bekannt.",
         "language": "de",
         "doc_type": "board_minutes",
         "jurisdiction": "DE",
@@ -866,13 +865,13 @@ GERMAN_DOCS = [
             "Die Klaeger stuetzen sich hauptsaechlich auf die IARC-Klassifizierung, waehrend "
             "die EPA-Bewertung Monsantos Position stuetzt. (2) Die Verschmelzungsvereinbarung "
             "enthaelt eine Material-Adverse-Effect-Klausel, die bestehende Rechtsstreitigkeiten "
-            "ausschliesst, sofern die erwartete Haftung 3 Milliarden USD nicht uebersteigt. "
+            "standardmaessige Ausschluesse (Wirtschaftslage, Maerkte, Branchenveraenderungen) enthaelt. "
             "(3) Arbeitnehmervertreter aeussern Bedenken hinsichtlich des Reputationsrisikos "
             "fuer die Marke Bayer. (4) Der Vorstand sichert zu, dass eine umfassende "
             "Produkthaftungsversicherung abgeschlossen wird. BESCHLUSS: Der Aufsichtsrat "
             "stimmt der Uebernahme mit 16 zu 4 Stimmen zu."
         ),
-        "summary": "Aufsichtsrat genehmigt Uebernahme (16:4). Haftung als 'beherrschbar' eingestuft. MAE-Klausel bei 3 Mrd USD.",
+        "summary": "Aufsichtsrat genehmigt Uebernahme (16:4). Haftung als 'beherrschbar' eingestuft. MAE-Klausel mit Standardausschluessen.",
         "language": "de",
         "doc_type": "board_minutes",
         "jurisdiction": "DE",
@@ -883,7 +882,7 @@ GERMAN_DOCS = [
         "risk_factors": ["Aufsichtsratsentscheidung", "Reputationsrisiko", "Beherrschbarkeitsbewertung"],
         "monetary_value": 0,
         "regulatory_bodies": ["BaFin"],
-        "contract_clauses": [{"clause_type": "material_adverse_effect", "summary": "MAE-Klausel schliesst Rechtsstreitigkeiten unter 3 Mrd USD aus", "language": "de"}],
+        "contract_clauses": [{"clause_type": "material_adverse_effect", "summary": "MAE-Klausel mit Standardausschluessen, keine spezifische Roundup-Schwelle", "language": "de"}],
         "related_docs": ["LEX-BD-001", "LEX-MRG-002"],
         "confidentiality": "internal",
         "tags": ["aufsichtsrat", "haftung", "genehmigung"],
@@ -1469,14 +1468,14 @@ BILINGUAL_DOCS = [
             "As of the date hereof, approximately 2,000 product liability claims related to "
             "Roundup herbicide are pending. (3) MATERIAL ADVERSE EFFECT: The MAE definition "
             "excludes the effect of pending or threatened litigation unless such litigation "
-            "would reasonably be expected to result in aggregate liability exceeding $3 billion. "
+            "uses standard carve-outs (economy, markets, industry changes, weather, accounting). Notably, the words 'Roundup' and 'glyphosate' do not appear anywhere in the 301,000-word merger agreement. "
             "(4) INDEMNIFICATION: Bayer's indemnification rights for breaches of representations "
             "and warranties are capped at $2 billion and subject to a $250 million basket. "
             "(5) TERMINATION FEE: $2 billion payable by Monsanto if the agreement is terminated "
             "under certain circumstances. (6) REGULATORY APPROVALS: Required from DOJ, EC, "
             "and authorities in approximately 30 jurisdictions."
         ),
-        "summary": "$63B merger. MAE excludes litigation under $3B. Indemnification capped at $2B. 2,000 Roundup claims disclosed.",
+        "summary": "$63B merger. MAE uses standard carve-outs; Roundup not named. Indemnification capped at $2B. 2,000 Roundup claims pending.",
         "language": "en",
         "doc_type": "merger_agreement",
         "jurisdiction": "US",
@@ -1488,7 +1487,7 @@ BILINGUAL_DOCS = [
         "monetary_value": 63000000000,
         "regulatory_bodies": ["DOJ", "EU Commission"],
         "contract_clauses": [
-            {"clause_type": "material_adverse_effect", "summary": "MAE excludes litigation unless >$3B", "language": "en"},
+            {"clause_type": "material_adverse_effect", "summary": "MAE uses standard carve-outs; Roundup/glyphosate not named in agreement", "language": "en"},
             {"clause_type": "indemnification_cap", "summary": "Indemnification capped at $2B with $250M basket", "language": "en"},
             {"clause_type": "termination_fee", "summary": "$2B reverse termination fee", "language": "en"},
         ],
@@ -1507,15 +1506,15 @@ BILINGUAL_DOCS = [
             "Offenlegungsanhang (Exhibit F) listet ca. 2.000 Produkthaftungsklagen im "
             "Zusammenhang mit Roundup auf. (3) WESENTLICHE NACHTEILIGE VERAENDERUNG (MAE): "
             "Die MAE-Definition schliesst laufende Rechtsstreitigkeiten aus, sofern die "
-            "erwartete Gesamthaftung 3 Milliarden USD nicht uebersteigt. KRITISCHE BEWERTUNG: "
-            "Die MAE-Schwelle von 3 Milliarden USD basiert auf der Due-Diligence-Einschaetzung "
+            "standardmaessige Ausschluesse (Wirtschaft, Maerkte, Branche) enthaelt. KRITISCHE BEWERTUNG: "
+            "Die MAE-Klausel adressiert Roundup-Rechtsstreitigkeiten nicht namentlich. Die Worte 'Roundup' und 'Glyphosat' erscheinen nicht im Verschmelzungsvertrag. Die Due-Diligence-Einschaetzung "
             "vom August 2016, die die tatsaechliche Haftung massiv unterschaetzt hat. "
             "(4) FREISTELLUNG: Bayer kann Freistellung fuer Verletzungen von Zusicherungen "
             "verlangen, begrenzt auf 2 Milliarden USD mit einem Freibetrag von 250 Millionen "
             "USD. Diese Obergrenze ist angesichts der tatsaechlichen Exposition von 10+ "
             "Milliarden USD voellig unzureichend."
         ),
-        "summary": "Deutsche Zusammenfassung des Merger Agreement. MAE bei 3 Mrd, Freistellung bei 2 Mrd - als unzureichend bewertet.",
+        "summary": "Deutsche Zusammenfassung des Merger Agreement. MAE mit Standardausschluessen, Roundup nicht namentlich adressiert. Freistellung bei 2 Mrd.",
         "language": "de",
         "doc_type": "merger_agreement",
         "jurisdiction": "DE",
@@ -1527,7 +1526,7 @@ BILINGUAL_DOCS = [
         "monetary_value": 63000000000,
         "regulatory_bodies": [],
         "contract_clauses": [
-            {"clause_type": "mae_klausel", "summary": "MAE schliesst Klagen unter 3 Mrd USD aus", "language": "de"},
+            {"clause_type": "mae_klausel", "summary": "MAE mit Standardausschluessen, keine spezifische Roundup-Schwelle", "language": "de"},
             {"clause_type": "freistellungsobergrenze", "summary": "Freistellung auf 2 Mrd USD begrenzt", "language": "de"},
         ],
         "related_docs": ["LEX-MRG-001", "LEX-MEM-003"],

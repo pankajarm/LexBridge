@@ -20,8 +20,8 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [German Product Liability Act (ProdHaftG)](https://www.gesetze-im-internet.de/prodhaftg/)
-- [Johnson v. Monsanto Co.](https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.)
+- [German Product Liability Act](https://www.gesetze-im-internet.de/prodhaftg/)
+- [Johnson v. Monsanto](https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.)
 
 ---
 

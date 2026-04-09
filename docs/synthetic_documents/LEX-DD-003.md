@@ -20,8 +20,8 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [Bayer AG Annual Report 2017](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2017.pdf)
-- [Bayer $10.9B Settlement Press Release](https://www.bayer.com/media/en-us/bayer-announces-agreements-to-resolve-major-legacy-monsanto-litigation/)
+- [Bayer 2017 Annual Report](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2017.pdf)
+- [Bayer $10.9B Settlement](https://www.bayer.com/media/en-us/bayer-announces-agreements-to-resolve-major-legacy-monsanto-litigation/)
 
 ---
 

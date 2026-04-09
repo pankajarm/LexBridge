@@ -33,7 +33,7 @@ BROWSER_UA = (
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 )
 REQUEST_DELAY = 1.5  # seconds between requests
-MAX_CONTENT_CHARS = 10_000  # max chars per document
+MAX_CONTENT_CHARS = 15_000  # max chars per document
 
 
 # ---------------------------------------------------------------------------
@@ -47,6 +47,7 @@ class ScrapeTarget:
     strategy: str  # wikipedia, sec_edgar, pubmed, html, pdf, browser
     section_filter: str | None = None
     max_pdf_pages: int = 20
+    pdf_keywords: list[str] | None = None  # if set, only keep pages matching these keywords
 
 
 SCRAPE_TARGETS: list[ScrapeTarget] = [
@@ -88,21 +89,21 @@ SCRAPE_TARGETS: list[ScrapeTarget] = [
     ScrapeTarget("LEX-SCI-003", "31342895", "pubmed"),
     ScrapeTarget("LEX-SCI-004", "10854122", "pubmed"),
 
-    # --- SEC filings ---
+    # --- SEC filings (keyword-based extraction for large docs) ---
     ScrapeTarget("LEX-SEC-001",
                  "https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm",
-                 "sec_edgar", section_filter="Item 1A"),
+                 "sec_edgar", section_filter="KW:plaintiff,meritorious,without merit,IARC,non-Hodgkin,3100,carcinogen"),
     ScrapeTarget("LEX-SEC-002",
                  "https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658d8k.htm",
-                 "sec_edgar", section_filter="Item 1.01"),
+                 "sec_edgar", section_filter="KW:Merger Consideration,$128,Material Adverse,litigation,Roundup"),
 
-    # --- Merger agreement ---
+    # --- Merger agreement (keyword extraction for MAE, indemnification, litigation) ---
     ScrapeTarget("LEX-MRG-001",
                  "https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658dex21.htm",
-                 "sec_edgar", section_filter="ARTICLE III"),
+                 "sec_edgar", section_filter="KW:Material Adverse Effect,Indemnification,litigation,Roundup,glyphosate"),
     ScrapeTarget("LEX-MRG-002",
                  "https://www.sec.gov/Archives/edgar/data/1110783/000119312516765991/d252304ddefm14a.htm",
-                 "sec_edgar", section_filter="RISK FACTORS"),
+                 "sec_edgar", section_filter="KW:Roundup,glyphosate,herbicide,cancer,plaintiff,product liability,non-Hodgkin"),
 
     # --- Settlements ---
     ScrapeTarget("LEX-SET-001",
@@ -120,11 +121,11 @@ SCRAPE_TARGETS: list[ScrapeTarget] = [
                  "https://en.wikipedia.org/wiki/Monsanto",
                  "wikipedia"),
     ScrapeTarget("LEX-CRB-003",
-                 "https://www.justice.gov/atr/case/us-v-bayer-ag-and-monsanto-company",
-                 "html"),
+                 "https://en.wikipedia.org/wiki/Monsanto",
+                 "wikipedia"),
     ScrapeTarget("LEX-CRB-004",
                  "https://www.justice.gov/atr/case/us-v-bayer-ag-and-monsanto-company",
-                 "html"),
+                 "browser"),
 
     # --- BaFin filings (use Bayer Wikipedia for context) ---
     ScrapeTarget("LEX-BAF-001",
@@ -132,13 +133,15 @@ SCRAPE_TARGETS: list[ScrapeTarget] = [
                  "wikipedia"),
     # LEX-BAF-002 shares same source as BAF-001, skip (will use synthetic)
 
-    # --- Shareholder comms (from Bayer annual reports) ---
+    # --- Shareholder comms (Bayer annual reports — filter for litigation/Roundup pages) ---
     ScrapeTarget("LEX-SH-001",
                  "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2017.pdf",
-                 "pdf", max_pdf_pages=15),
+                 "pdf", max_pdf_pages=120,
+                 pdf_keywords=["Roundup", "glyphosate", "litigation", "lawsuit", "plaintiff", "Monsanto"]),
     ScrapeTarget("LEX-SH-002",
                  "https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf",
-                 "pdf", max_pdf_pages=15),
+                 "pdf", max_pdf_pages=120,
+                 pdf_keywords=["Roundup", "glyphosate", "litigation", "lawsuit", "plaintiff", "11,200", "8,000"]),
 ]
 
 
@@ -194,7 +197,7 @@ class Scraper:
                 case "html":
                     return self._fetch_html(target.url)
                 case "pdf":
-                    return self._fetch_pdf(target.url, target.max_pdf_pages)
+                    return self._fetch_pdf(target.url, target.max_pdf_pages, target.pdf_keywords)
                 case "browser":
                     return self._fetch_browser(target.url)
                 case _:
@@ -242,23 +245,27 @@ class Scraper:
             "Accept-Encoding": "gzip, deflate",
             "Accept": "text/html,application/xhtml+xml",
         }
-        resp = self.session.get(url, headers=headers, timeout=60)
+        resp = self.session.get(url, headers=headers, timeout=120)
         resp.raise_for_status()
 
         soup = BeautifulSoup(resp.text, "lxml")
-
-        # Remove scripts/styles
         for tag in soup(["script", "style", "meta", "link"]):
             tag.decompose()
 
-        full_text = soup.get_text(separator="\n", strip=True)
+        full_text = re.sub(r"\s+", " ", soup.get_text(separator=" ", strip=True))
 
         if not section_filter:
             return full_text[:MAX_CONTENT_CHARS]
 
-        # Extract specific section(s)
-        extracted_sections = []
+        # section_filter can be:
+        #   "Item 1A" - heading-based section
+        #   "KW:glyphosate,Roundup,litigation" - keyword-based extraction
+        if section_filter.startswith("KW:"):
+            keywords = [k.strip() for k in section_filter[3:].split(",")]
+            return _extract_around_keywords(full_text, keywords)
 
+        # Try heading-based section extraction
+        extracted_sections = []
         for section_name in section_filter.split(","):
             section_name = section_name.strip()
             extracted = _extract_section(full_text, section_name)
@@ -268,8 +275,8 @@ class Scraper:
         if extracted_sections:
             return "\n\n".join(extracted_sections)
 
-        # Fallback: return full text (section headings may be in different format)
-        log.warning(f"Section '{section_filter}' too short or missing, using full text")
+        # Fallback: keyword search in full text
+        log.warning(f"Section '{section_filter}' too short or missing, trying keyword search")
         return full_text[:MAX_CONTENT_CHARS]
 
     # --- PubMed E-utilities ---
@@ -324,11 +331,12 @@ class Scraper:
 
     # --- PDF ---
 
-    def _fetch_pdf(self, url: str, max_pages: int = 20) -> str:
+    def _fetch_pdf(self, url: str, max_pages: int = 20,
+                   keywords: list[str] | None = None) -> str:
         from pypdf import PdfReader
 
         headers = {"User-Agent": BROWSER_UA}
-        resp = self.session.get(url, headers=headers, timeout=60)
+        resp = self.session.get(url, headers=headers, timeout=120)
         resp.raise_for_status()
 
         reader = PdfReader(io.BytesIO(resp.content))
@@ -336,7 +344,13 @@ class Scraper:
         text_parts = []
         for i in range(pages_to_read):
             page_text = reader.pages[i].extract_text()
-            if page_text:
+            if not page_text:
+                continue
+            # If keywords specified, only keep pages that contain at least one
+            if keywords:
+                if any(kw.lower() in page_text.lower() for kw in keywords):
+                    text_parts.append(page_text)
+            else:
                 text_parts.append(page_text)
 
         return "\n\n".join(text_parts)
@@ -440,6 +454,48 @@ def _extract_section(text: str, section_name: str, max_chars: int = MAX_CONTENT_
         section_text = section_text[:end_match.start() + offset]
 
     return section_text[:max_chars].strip()
+
+
+def _extract_around_keywords(text: str, keywords: list[str],
+                             context_chars: int = 1500,
+                             max_total: int = MAX_CONTENT_CHARS) -> str:
+    """Extract chunks of text around keyword matches.
+
+    Finds all occurrences of keywords and extracts context_chars around each,
+    deduplicating overlapping regions. Returns concatenated excerpts.
+    """
+    regions: list[tuple[int, int]] = []
+    for kw in keywords:
+        for m in re.finditer(re.escape(kw), text, re.IGNORECASE):
+            start = max(0, m.start() - context_chars)
+            end = min(len(text), m.end() + context_chars)
+            regions.append((start, end))
+
+    if not regions:
+        return ""
+
+    # Merge overlapping regions
+    regions.sort()
+    merged = [regions[0]]
+    for start, end in regions[1:]:
+        if start <= merged[-1][1]:
+            merged[-1] = (merged[-1][0], max(merged[-1][1], end))
+        else:
+            merged.append((start, end))
+
+    # Extract and join
+    excerpts = []
+    total = 0
+    for start, end in merged:
+        chunk = text[start:end].strip()
+        if total + len(chunk) > max_total:
+            chunk = chunk[: max_total - total]
+        excerpts.append(chunk)
+        total += len(chunk)
+        if total >= max_total:
+            break
+
+    return "\n\n[...]\n\n".join(excerpts)
 
 
 def _postprocess(text: str) -> str:

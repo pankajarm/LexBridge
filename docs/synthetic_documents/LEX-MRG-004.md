@@ -20,8 +20,8 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [Definitive Merger Proxy Statement — DEFM14A (SEC EDGAR)](https://www.sec.gov/Archives/edgar/data/1110783/000119312516765991/d252304ddefm14a.htm)
-- [Bayer AG Annual Report 2018](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
+- [DEFM14A Proxy](https://www.sec.gov/Archives/edgar/data/1110783/000119312516765991/d252304ddefm14a.htm)
+- [Bayer 2018 Annual Report](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
 
 ---
 

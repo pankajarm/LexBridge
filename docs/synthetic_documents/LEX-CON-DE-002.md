@@ -20,7 +20,7 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [German Product Liability Act (ProdHaftG)](https://www.gesetze-im-internet.de/prodhaftg/)
+- [German Product Liability Act](https://www.gesetze-im-internet.de/prodhaftg/)
 
 ---
 

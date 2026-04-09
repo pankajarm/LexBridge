@@ -20,8 +20,8 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [Pilliod v. Monsanto — CA Court of Appeal Opinion](https://law.justia.com/cases/california/court-of-appeal/2021/a158228.html)
-- [Johnson v. Monsanto Co.](https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.)
+- [Pilliod v. Monsanto — CA Court of Appeal](https://law.justia.com/cases/california/court-of-appeal/2021/a158228.html)
+- [Johnson v. Monsanto](https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.)
 - [IARC Monograph 112](https://publications.iarc.who.int/549)
 
 ---

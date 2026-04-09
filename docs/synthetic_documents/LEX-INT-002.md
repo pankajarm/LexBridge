@@ -20,7 +20,7 @@
 
 This synthetic document is based on the following publicly available sources:
 
-- [Bayer AG Annual Report 2018 — IT Integration](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
+- [Bayer 2018 Annual Report](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
 
 ---
 
