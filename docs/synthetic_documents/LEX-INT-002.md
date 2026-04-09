@@ -1,5 +1,9 @@
 # Integrationsplan - IT-Systeme und Compliance
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-INT-002
 **Classification:** INTERNAL
 **Language:** German
@@ -9,6 +13,14 @@
 **Parties:** Bayer AG
 **Products:** N/A
 **Monetary Value:** $200,000,000
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [Bayer AG Annual Report 2018 — IT Integration](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
 
 ---
 
@@ -27,9 +39,3 @@ VERTRAULICH - Projektplan zur Integration der IT-Systeme und Compliance-Infrastr
 ## Risk Factors
 
 IT-Integrationskosten, E-Discovery Anforderungen, Sprachbarrieren
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

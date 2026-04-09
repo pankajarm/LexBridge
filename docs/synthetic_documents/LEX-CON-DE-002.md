@@ -1,5 +1,9 @@
 # Bayer Freistellungsklausel-Muster fuer Lieferantenvertraege
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-CON-DE-002
 **Classification:** INTERNAL
 **Language:** German
@@ -9,6 +13,14 @@
 **Parties:** Bayer AG
 **Products:** N/A
 **Monetary Value:** N/A
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [German Product Liability Act (ProdHaftG)](https://www.gesetze-im-internet.de/prodhaftg/)
 
 ---
 
@@ -27,9 +39,3 @@ MUSTERVERTRAG - Bayer AG Standardfreistellungsklausel fuer Lieferantenvertraege.
 ## Risk Factors
 
 Vertragsstandard-Divergenz
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

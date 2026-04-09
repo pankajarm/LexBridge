@@ -1,5 +1,9 @@
 # BaFin Pflichtmitteilung - Kontrollwechsel und Stimmrechtsmeldung
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-BAF-002
 **Classification:** PUBLIC
 **Language:** German
@@ -9,6 +13,15 @@
 **Parties:** Bayer AG, Monsanto Company
 **Products:** N/A
 **Monetary Value:** $35,000,000,000
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [Bayer AG Annual Report 2018 — Financial Statements](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
+- [EU Commission Bayer/Monsanto Conditional Clearance](https://ec.europa.eu/commission/presscorner/detail/en/ip_18_2282)
 
 ---
 
@@ -27,9 +40,3 @@ Stimmrechtsmitteilung gemaess Paragraf 33 Wertpapierhandelsgesetz (WpHG). Die Ba
 ## Risk Factors
 
 Verschuldung, Eigenkapitalverduennung, Bilanzrisiko
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

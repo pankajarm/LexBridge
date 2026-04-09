@@ -1,5 +1,9 @@
 # Gewaehrleistungen und Zusicherungen - Analyse der Offenlegungsluecken
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-MRG-004
 **Classification:** PRIVILEGED
 **Language:** German
@@ -9,6 +13,15 @@
 **Parties:** Bayer AG, Monsanto Company
 **Products:** Roundup
 **Monetary Value:** N/A
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [Definitive Merger Proxy Statement — DEFM14A (SEC EDGAR)](https://www.sec.gov/Archives/edgar/data/1110783/000119312516765991/d252304ddefm14a.htm)
+- [Bayer AG Annual Report 2018](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
 
 ---
 
@@ -27,9 +40,3 @@ VERTRAULICH - Analyse der Gewaehrleistungen und Zusicherungen im Verschmelzungsv
 ## Risk Factors
 
 68% Dokumentenluecke, Unvollstaendige Auswertung, Sprachbarriere
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

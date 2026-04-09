@@ -1,5 +1,9 @@
 # Representations and Warranties - Litigation Disclosure Analysis
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-MRG-003
 **Classification:** PRIVILEGED
 **Language:** English
@@ -9,6 +13,15 @@
 **Parties:** Bayer AG, Monsanto Company
 **Products:** Roundup
 **Monetary Value:** N/A
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [Agreement and Plan of Merger — Exhibit 2.1 (R&W, Section 3.09)](https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658dex21.htm)
+- [Monsanto 10-K FY2017 — Litigation Disclosures](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
 
 ---
 
@@ -27,9 +40,3 @@ ANALYSIS OF REPRESENTATIONS AND WARRANTIES in the Agreement and Plan of Merger. 
 ## Risk Factors
 
 Incomplete Disclosure, Representation Breach, Hidden Risk Projections
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

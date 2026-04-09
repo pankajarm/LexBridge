@@ -1,5 +1,9 @@
 # Aufsichtsratssitzung - Diskussion der Haftungsrisiken Monsanto
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-BD-002
 **Classification:** INTERNAL
 **Language:** German
@@ -9,6 +13,15 @@
 **Parties:** Bayer AG
 **Products:** Roundup
 **Monetary Value:** N/A
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [Bayer AG Annual Report 2018 — Corporate Governance](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
+- [Agreement and Plan of Merger — MAE Clause (SEC EDGAR)](https://www.sec.gov/Archives/edgar/data/1110783/000119312516714915/d234658dex21.htm)
 
 ---
 
@@ -27,9 +40,3 @@ VERTRAULICH - Protokoll der Aufsichtsratssitzung der Bayer AG vom 28. November 2
 ## Risk Factors
 
 Aufsichtsratsentscheidung, Reputationsrisiko, Beherrschbarkeitsbewertung
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

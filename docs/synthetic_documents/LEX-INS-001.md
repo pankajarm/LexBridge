@@ -1,5 +1,9 @@
 # Monsanto Product Liability Insurance Policy - Primary Coverage
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-INS-001
 **Classification:** CONFIDENTIAL
 **Language:** English
@@ -9,6 +13,14 @@
 **Parties:** Monsanto Company, Global Re Insurance Group
 **Products:** Roundup
 **Monetary Value:** $250,000,000
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [Monsanto 10-K Annual Report FY2017 — Insurance Disclosures](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
 
 ---
 
@@ -27,9 +39,3 @@ PRODUCT LIABILITY INSURANCE POLICY. Insured: Monsanto Company and subsidiaries. 
 ## Risk Factors
 
 Insurance Coverage Gap, Known Liability Exclusion
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

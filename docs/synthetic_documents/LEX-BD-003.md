@@ -1,5 +1,9 @@
 # Vorstandssitzung - Integrationsplanung Post-Merger Monsanto
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-BD-003
 **Classification:** INTERNAL
 **Language:** German
@@ -9,6 +13,15 @@
 **Parties:** Bayer AG
 **Products:** Roundup
 **Monetary Value:** N/A
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [Bayer AG Annual Report 2018 — Integration Report](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
+- [In re Roundup Products Liability Litigation — MDL 2741](https://www.courtlistener.com/docket/4579168/in-re-roundup-products-liability-litigation/)
 
 ---
 
@@ -27,9 +40,3 @@ VERTRAULICH - Protokoll der Vorstandssitzung der Bayer AG vom 15. Januar 2018. T
 ## Risk Factors
 
 Klagezahl vervierfacht, Integrationsrisiko
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

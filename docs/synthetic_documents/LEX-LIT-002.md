@@ -1,5 +1,9 @@
 # Pilliod v. Monsanto Company - Punitive Damages Complaint
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-LIT-002
 **Classification:** PUBLIC
 **Language:** English
@@ -9,6 +13,16 @@
 **Parties:** Alva Pilliod, Alberta Pilliod, Monsanto Company
 **Products:** Roundup
 **Monetary Value:** $2,055,000,000
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [Pilliod v. Monsanto — CA Court of Appeal Opinion](https://law.justia.com/cases/california/court-of-appeal/2021/a158228.html)
+- [Johnson v. Monsanto Co.](https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.)
+- [IARC Monograph 112](https://publications.iarc.who.int/549)
 
 ---
 
@@ -27,9 +41,3 @@ Plaintiffs Alva and Alberta Pilliod, a married couple from Livermore, California
 ## Risk Factors
 
 Product Liability, NHL Cancer Link, Punitive Damages
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

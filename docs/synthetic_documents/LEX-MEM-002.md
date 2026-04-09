@@ -1,5 +1,9 @@
 # Haftungsanalyse - Glyphosat-Klagen aus deutscher Perspektive
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-MEM-002
 **Classification:** PRIVILEGED
 **Language:** German
@@ -9,6 +13,15 @@
 **Parties:** Bayer AG
 **Products:** Roundup
 **Monetary Value:** $85,000,000
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [German Product Liability Act (ProdHaftG)](https://www.gesetze-im-internet.de/prodhaftg/)
+- [Johnson v. Monsanto Co.](https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.)
 
 ---
 
@@ -27,9 +40,3 @@ VERTRAULICH - Memorandum der Rechtsabteilung. Analyse der Glyphosat-Klagen aus d
 ## Risk Factors
 
 Rechtsvergleich DE/US, Unbegrenzte US-Haftung, Fehlende Expertise
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

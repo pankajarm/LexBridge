@@ -1,5 +1,9 @@
 # Interne Risikobewertung - Gesamtexposition nach Uebernahme
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-RISK-DE-001
 **Classification:** PRIVILEGED
 **Language:** German
@@ -9,6 +13,16 @@
 **Parties:** Bayer AG
 **Products:** Roundup
 **Monetary Value:** $15,000,000,000
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [Bayer AG Annual Report 2018](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2018.pdf)
+- [Johnson v. Monsanto Co.](https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.)
+- [Bayer $10.9B Settlement Press Release](https://www.bayer.com/media/en-us/bayer-announces-agreements-to-resolve-major-legacy-monsanto-litigation/)
 
 ---
 
@@ -27,9 +41,3 @@ STRENG VERTRAULICH - Aktualisierte Risikobewertung der Bayer AG Rechtsabteilung.
 ## Risk Factors
 
 Massive Unterschaetzung, Due-Diligence-Versagen, Haftungsexplosion
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

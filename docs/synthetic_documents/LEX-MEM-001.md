@@ -1,5 +1,9 @@
 # Rechtsabteilung - Memorandum zur US-Produkthaftung
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-MEM-001
 **Classification:** PRIVILEGED
 **Language:** German
@@ -9,6 +13,15 @@
 **Parties:** Bayer AG
 **Products:** Roundup
 **Monetary Value:** N/A
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [German Product Liability Act (ProdHaftG)](https://www.gesetze-im-internet.de/prodhaftg/)
+- [Monsanto 10-K FY2017 — Risk Factors](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
 
 ---
 
@@ -27,9 +40,3 @@ VERTRAULICH - Memorandum der Rechtsabteilung der Bayer AG. Betreff: Grundzuege d
 ## Risk Factors
 
 US Strict Liability, Punitive Damages Risiko, MDL-Eskalation
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

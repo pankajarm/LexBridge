@@ -1,5 +1,9 @@
 # Monsanto Supplier Contract - Liability Allocation for Glyphosate Raw Materials
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-CON-002
 **Classification:** CONFIDENTIAL
 **Language:** English
@@ -9,6 +13,14 @@
 **Parties:** ChemSource International, Monsanto Company
 **Products:** Roundup
 **Monetary Value:** N/A
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [Monsanto 10-K Annual Report FY2017 — Material Contracts](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
 
 ---
 
@@ -27,9 +39,3 @@ SUPPLY AGREEMENT between ChemSource International Ltd. ('Supplier') and Monsanto
 ## Risk Factors
 
 Liability Asymmetry, Limited Supplier Recourse
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

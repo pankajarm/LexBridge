@@ -1,5 +1,9 @@
 # Monsanto Internal Litigation Risk Assessment - Roundup Product Liability
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-RISK-001
 **Classification:** PRIVILEGED
 **Language:** English
@@ -9,6 +13,16 @@
 **Parties:** Monsanto Company
 **Products:** Roundup
 **Monetary Value:** $5,000,000,000
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [Monsanto 10-K Annual Report FY2017 — Risk Factors (SEC EDGAR)](https://www.sec.gov/Archives/edgar/data/1110783/000111078317000187/mon-20170831x10k.htm)
+- [IARC Monograph 112 — Glyphosate Classification](https://publications.iarc.who.int/549)
+- [Johnson v. Monsanto Co. — First Roundup Trial](https://en.wikipedia.org/wiki/Johnson_v._Monsanto_Co.)
 
 ---
 
@@ -27,9 +41,3 @@ CONFIDENTIAL - ATTORNEY-CLIENT PRIVILEGED. This memorandum presents an updated r
 ## Risk Factors
 
 Mass Tort Liability, Punitive Damages Risk, Accelerating Claim Filings, Ghostwriting Exposure
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*

@@ -1,5 +1,9 @@
 # Finanzielle Bewertung - Klagenkomplex Roundup
 
+> **SYNTHETIC DOCUMENT** — This document was reconstructed for the LexBridge
+> M&A due diligence demo based on publicly available evidence listed below.
+> It does not represent an actual document from Bayer AG or Monsanto Company.
+
 **Document ID:** LEX-DD-003
 **Classification:** PRIVILEGED
 **Language:** German
@@ -9,6 +13,15 @@
 **Parties:** Bayer AG
 **Products:** Roundup
 **Monetary Value:** $10,000,000,000
+
+---
+
+## Public Evidence Sources
+
+This synthetic document is based on the following publicly available sources:
+
+- [Bayer AG Annual Report 2017](https://www.annualreports.com/HostedData/AnnualReportArchive/b/OTC_BAYZF_2017.pdf)
+- [Bayer $10.9B Settlement Press Release](https://www.bayer.com/media/en-us/bayer-announces-agreements-to-resolve-major-legacy-monsanto-litigation/)
 
 ---
 
@@ -27,9 +40,3 @@ VERTRAULICH - Finanzielle Bewertung des Roundup-Klagenkomplexes fuer die Vorstan
 ## Risk Factors
 
 Finanzielle Fehlbewertung, Unterschaetzte Klagezahl, Szenarienanalyse
-
----
-
-*This is a synthetic document created for the LexBridge M&A due diligence demo.
-It is modeled after real-world events from the Bayer-Monsanto acquisition but does
-not represent an actual document from either company.*
